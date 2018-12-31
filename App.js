@@ -28,14 +28,16 @@ export default class App extends React.Component {
   }
 
   completeMeditation = () => {
-    this.setState({isMeditationDone: !this.state.isMeditationDone})
+    console.log('finished meditation')
+    //this.setState({isMeditationDone: !this.state.isMeditationDone})
   }
   
   openBox = () => {
     // send a post request to open the box
     axios.post('192.168.1.18:7272/open', {})
     .then(()=>{
-      this.setState({this.state.isBoxOpen: true})
+      console.log('opened the box')
+      //this.setState({this.state.isBoxOpen: true})
     })
     .catch((err)=>{
       console.log(err)

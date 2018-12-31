@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingVertical: 20,
+    paddingVertical: 50,
   },
   switchContainer: {
     display: 'flex',
@@ -21,24 +21,29 @@ const styles = StyleSheet.create({
 })
 
 export default class App extends React.Component {
+  state = {
+    isMeditationDone = false,
+    isBoxOpen = false
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text>Todo List:</Text>
-        
+ 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Music</Text>
-          <Switch />
+          <Text>132/500</Text>
         </View>
 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Meditate</Text>
-          <Switch />
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange{() => this.completeMeditation())}, value={this.state.isMeditationDone} />
         </View>
 
-       <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Box Open</Text>
-          <Switch />
+        <View style={styles.switchContainer}>
+          <Text style={styles.switchLabel}>Open Box</Text>
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange{() => this.openBox())}, value={this.state.isBoxOpen } />
         </View>
 
       </View>

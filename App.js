@@ -4,7 +4,8 @@ import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-nativ
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    paddingVertical: 20,
   },
   switchContainer: {
     display: 'flex',
@@ -26,12 +27,17 @@ export default class App extends React.Component {
         <Text>Todo List:</Text>
         
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}> Music </Text>
+          <Text style={styles.switchLabel}>Music</Text>
           <Switch />
         </View>
 
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}> Meditate </Text>
+          <Text style={styles.switchLabel}>Meditate</Text>
+          <Switch />
+        </View>
+
+       <View style={styles.switchContainer}>
+          <Text style={styles.switchLabel}>Box Open</Text>
           <Switch />
         </View>
 

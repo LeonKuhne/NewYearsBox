@@ -22,8 +22,16 @@ const styles = StyleSheet.create({
 
 export default class App extends React.Component {
   state = {
-    isMeditationDone = false,
-    isBoxOpen = false
+    isMeditationDone: false,
+    isBoxOpen: false
+  }
+
+  completeMeditation = () => {
+    this.state.isMeditationDone = !this.state.isMeditationDone
+  }
+  
+  openBox = () => {
+    this.state.isBoxOpen = !this.state.isBoxOpen
   }
 
   render() {

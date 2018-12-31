@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, StatusBar, StyleSheet, View } from 'react-native'
+import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <Text>Todo List:</Text>
         <Switch value="Music" />
         <Switch value="Meditate" />
-        <Switch value="Open Container"/>
+        <Switch value="Open Container" />
       </View>
     )
   }

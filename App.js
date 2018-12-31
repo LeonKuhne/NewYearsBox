@@ -1,5 +1,6 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
+import axios from 'axios'
 
 const styles = StyleSheet.create({
   container: {
@@ -31,7 +32,10 @@ export default class App extends React.Component {
   }
   
   openBox = () => {
-    this.state.isBoxOpen = !this.state.isBoxOpen
+    // send a post request to open the box
+    axios.post('192.168.1.18:7272/open' {}).then(()=>{
+      this.state.isBoxOpen = true
+    })
   }
 
   render() {

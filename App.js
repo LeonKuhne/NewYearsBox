@@ -33,7 +33,7 @@ export default class App extends React.Component {
   
   openBox = () => {
     // send a post request to open the box
-    axios.post('192.168.1.18:7272/open' {}).then(()=>{
+    axios.post('192.168.1.18:7272/open', {}).then(()=>{
       this.state.isBoxOpen = true
     })
   }

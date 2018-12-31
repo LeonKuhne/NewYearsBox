@@ -14,12 +14,14 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
-
-        // build the view
-        
-        
-        
+        <Text>
+          Todo List:
+          - Music
+          - Meditate
+        </Text>
+        <Text>
+          Open Container
+        </Text>
       </View>
     )
   }

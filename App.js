@@ -50,12 +50,12 @@ export default class App extends React.Component {
 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Meditate</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.completeMeditation())} value={this.state.isMeditationDone} />
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.completeMeditation()} value={this.state.isMeditationDone} />
         </View>
 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Open Box</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.openBox())} value={this.state.isBoxOpen } />
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.openBox()} value={this.state.isBoxOpen } />
         </View>
 
       </View>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import axios from 'axios'
-
+import Colors from './constants/Colors'
 const styles = StyleSheet.create({
   container: {
     flex: 1,

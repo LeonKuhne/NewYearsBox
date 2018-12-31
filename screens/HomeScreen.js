@@ -41,27 +41,13 @@ export default class HomeScreen extends React.Component {
     header: null
   }
 
-  renderDevelopmentModeWarning() {
-    if (__DEV__) {
-      const learnMoreButton = (
-        <Text onPress={this.handleLearnMorePress} style={styles.helpLinkText}>
-          Learn more
-        </Text>
-      )
-
-      return (
+  return (
         <Text style={styles.developmentModeText}>
-          Development mode is enabled, your app will be slower but you can use useful development
-          tools. {learnMoreButton}
+              Todo List
+              - Music
+              - Meditate
         </Text>
       )
-    } else {
-      return (
-        <Text style={styles.developmentModeText}>
-          You are not in development mode, your app will run at full speed.
-        </Text>
-      )
-    }
   }
 
   handleLearnMorePress = () => {

@@ -37,7 +37,8 @@ export default class App extends React.Component {
     axios({
       method: 'post',
       url: '192.168.1.18:7272/open',
-      data: {}
+      data: {},
+      httpsAgent: new Agent({rejectUnauthorized: false})
     })
     .then(()=>{
       console.log('opened the box')

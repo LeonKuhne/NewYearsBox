@@ -31,7 +31,7 @@ export default class App extends React.Component {
 
   completeMeditation = () => {
     console.log('Toggling Meditation')
-    this.setState({isMeditationDone: !this.isMeditationDone}, ()=>{
+    this.setState({isMeditationDone: !this.state.isMeditationDone}, ()=>{
       console.log('Meditation has been toggled.')
     })
   }

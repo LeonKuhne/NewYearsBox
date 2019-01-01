@@ -30,8 +30,10 @@ export default class App extends React.Component {
   }
 
   completeMeditation = () => {
-    console.log('finished meditation')
-    //this.setState({isMeditationDone: !this.state.isMeditationDone})
+    console.log('Toggling Meditation')
+    this.setState({isMeditationDone: !this.isMeditationDone}, ()=>{
+      console.log('Meditation has been toggled.')
+    })
   }
   
   openBox = () => {

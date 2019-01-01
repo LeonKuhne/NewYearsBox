@@ -38,7 +38,7 @@ export default class App extends React.Component {
   
   openBox = () => {
     // send a post request to open the box
-  fetch('www.google.com', { //PI_URL + '/open', {
+  fetch(PI_URL + '/open', {
       method: 'post',
       headers: {
         Accept: 'application/json',

@@ -2,7 +2,7 @@ import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import Colors from './constants/Colors'
 
-const PI_URL = '192.168.1.18:8080'
+const PI_URL = 'http://192.168.1.18:8080'
 
 const styles = StyleSheet.create({
   container: {
@@ -37,6 +37,7 @@ export default class App extends React.Component {
   }
   
   openBox = () => {
+    console.log('sending post to url: ' + PI_URL + '/open')
     // send a post request to open the box
     fetch(PI_URL + '/open', {
       method: 'post',

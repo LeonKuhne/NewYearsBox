@@ -40,10 +40,15 @@ export default class App extends React.Component {
     // send a post request to open the box
     fetch(PI_URL + '/open', {
       method: 'post',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: ''
     })
     .then((res)=>{
       console.log('opened the box')
-      //this.setState({this.state.isBoxOpen: true})
+      this.setState({isBoxOpen: true})
     })
     .catch((err)=>{
       console.error('Error opening box: ' + err)

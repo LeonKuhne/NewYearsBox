@@ -1,8 +1,8 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
-import axios from 'axios'
-import { Agent } from 'https'
 import Colors from './constants/Colors'
+
+const PI_URL = '192.168.1.18:7272'
 
 const styles = StyleSheet.create({
   container: {
@@ -36,18 +36,15 @@ export default class App extends React.Component {
   
   openBox = () => {
     // send a post request to open the box
-    axios({
+    fetch(PI_URL + '/open', {
       method: 'post',
-      url: '192.168.1.18:7272/open',
-      data: {},
-      httpsAgent: new Agent({rejectUnauthorized: false})
     })
-    .then(()=>{
+    .then((res)=>{
       console.log('opened the box')
       //this.setState({this.state.isBoxOpen: true})
     })
     .catch((err)=>{
-      console.log(err)
+      console.error('Error opening box: ' + err)
     })
   }
 

@@ -1,0 +1,1731 @@
+Script started on 2019-01-02 14:18:17-0500
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mls
+App.js           [0m[34;42mconstants[0m      [34;42mscreens[0m
+README.md        [34;42mdocs[0m           [34;42mscripts[0m
+app.json         [34;42mnavigation[0m     todo.md
+[34;42massets[0m           [34;42mnode_modules[0m   typescript
+babel.config.js  npm-debug.log
+[34;42mcomponents[0m       package.json
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mlsexit[K[K[K[Kscripts/toggle.sh 
+curl: (7) Failed to connect to 192.168.1.3 port 80: Connection refused
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear
+[3J[H[2J]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear[C[Cscripts/toggle.sh 
+curl: (7) Failed to connect to 192.168.1.3 port 80: Connection refused
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh [C[Cclear[K[C[Cscripts/toggle.sh [1@v[1@i[1@m[1@ 
+[m[m[0m[H[2J[45;1H"scripts/toggle.sh" 2L, 46C[2;1H▽[6n[2;1H  [1;1H[1;1H[93m  1 [0m[96m#!/bin/bash[0m
+[93m  2 [0mcurl [38;5;224m--data[0m [93m""[0m [95m192[0m.[95m168[0m.[95m1[0m.[95m3[0m/toggle
+[94m~                                                   [4;1H~                                                   [5;1H~                                                   [6;1H~                                                   [7;1H~                                                   [8;1H~                                                   [9;1H~                                                   [10;1H~                                                   [11;1H~                                                   [12;1H~                                                   [13;1H~                                                   [14;1H~                                                   [15;1H~                                                   [16;1H~                                                   [17;1H~                                                   [18;1H~                                                   [19;1H~                                                   [20;1H~                                                   [21;1H~                                                   [22;1H~                                                   [23;1H~                                                   [24;1H~                                                   [25;1H~                                                   [26;1H~                                                   [27;1H~                                                   [28;1H~                                                   [29;1H~                                                   [30;1H~                                                   [31;1H~                                                   [32;1H~                                                   [33;1H~                                                   [34;1H~                                                   [35;1H~                                                   [36;1H~                                                   [37;1H~                                                   [38;1H~                                                   [39;1H~                                                   [40;1H~                                                   [41;1H~                                                   [42;1H~                                                   [43;1H~                                                   [0m[44;1H[1m[7mscripts/toggle.sh                 1,1            All[1;5H[0m[45;42H~@k[1;5H[45;42H   [2;5H[44;35H[1m[7m2[2;5H[0m[45;42H~@k[2;5H[45;42H   [2;6H[44;37H[1m[7m2[2;6H[0m[45;42H~@k[2;6H[45;42H   [2;7H[44;37H[1m[7m3[2;7H[0m[45;42H~@k[2;7H[45;42H   [2;8H[44;37H[1m[7m4[2;8H[0m[45;42H~@k[2;8H[45;42H   [2;9H[44;37H[1m[7m5[2;9H[0m[45;42H~@k[2;9H[45;42H   [2;10H[44;37H[1m[7m6[2;10H[0m[45;42H~@k[2;10H[45;42H   [2;11H[44;37H[1m[7m7[2;11H[0m[45;42H~@k[2;11H[45;42H   [2;12H[44;37H[1m[7m8[2;12H[0m[45;42H~@k[2;12H[45;42H   [2;13H[44;37H[1m[7m9[2;13H[0m[45;42H~@k[2;13H[45;42H   [2;14H[44;37H[1m[7m10[2;14H[0m[45;42H~@k[2;14H[45;42H   [2;15H[44;38H[1m[7m1[2;15H[0m[45;42H~@k[2;15H[45;42H   [2;16H[44;38H[1m[7m2[2;16H[0m[45;42H~@k[2;16H[45;42H   [2;17H[44;38H[1m[7m3[2;17H[0m[45;42H~@k[2;17H[45;42H   [2;18H[44;38H[1m[7m4[2;18H[0m[45;42H~@k[2;18H[45;42H   [2;19H[44;38H[1m[7m5[2;19H[0m[45;42H~@k[2;19H[45;42H   [2;20H[44;38H[1m[7m6[2;20H[0m[45;42H~@k[2;20H[45;42H   [2;21H[44;38H[1m[7m7[2;21H[0m[45;42H~@k[2;21H[45;42H   [2;22H[44;38H[1m[7m8[2;22H[0m[45;42H~@k[2;22H[45;42H   [2;23H[44;38H[1m[7m9[2;23H[0m[45;42H~@k[2;23H[45;42H   [2;24H[44;37H[1m[7m20[2;24H[0m[45;42H~@k[2;24H[45;42H   [2;25H[44;38H[1m[7m1[2;25H[0m[45;42H~@k[2;25H[45;42H   [2;26H[44;38H[1m[7m2[2;26H[0m[45;42H~@k[2;26H[45;42H   [2;27H[44;38H[1m[7m3[2;27H[0m[45;42H~@k[2;27H[45;42H   [2;28H[44;38H[1m[7m4[2;28H[0m[45;42H~@k[2;28H[45;42H   [2;29H[44;38H[1m[7m5[2;29H[0m[45;42H^[[2;29H[45;44H[[2;29H[45;42H   [2;29H[45;42H~@k[2;29H[45;42H   [2;30H[44;38H[1m[7m6[2;30H[0m[45;42H~@k[2;30H[45;42H   [2;31H[44;38H[1m[7m7[2;31H[0m[45;42Hi[2;31H[45;42H [2;31H[45;1H[1m-- INSERT --[0m[45;13H[K[2;31H3:/toggle[44;19H[1m[7m[+][16C8[2;32H[0m7/toggle[44;38H[1m[7m9[2;33H[0m2/toggle[44;37H[1m[7m30[2;34H[0m7/toggle[44;38H[1m[7m1[2;35H[0m2/toggle[44;38H[1m[7m2[2;36H[0m[45;1H[K[2;35H[45;42H^[[2;35H[45;42H  [2;36H[44;38H[1m[7m1[2;35H[0m[45;42H:[2;35H[45;42H[K[45;1H:wq"scripts/toggle.sh" 2L, 51C written
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mvim scripts/toggle.sh [K[C[C[3Pscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvim todo.md 
+[m[m[0m[H[2J[45;1H"todo.md" 13L, 552C[2;1H▽[6n[2;1H  [1;1H[1;1H[93m  1 [0mget a box and setup box with lock
+[93m  2 [0mhave the box keep track of its open/close state
+[93m  3 [0mchange openBox() to toggleBox()
+[93m  4 [0mprevent the servo from moving every so often
+[93m  5 [0mstore the music hours, cheat days, days meditatee[6;1H[93m    [0md, and binge drink days
+[93m  6 [0madd endpoints for all of these things
+[93m  7 [0mdon't let the box open if behind, if not meditatt[9;1H[93m    [0med, or if too many drink days
+[93m  8 [0mclose the box once a day late in the am (5AM or  [11;1H[93m    [0mso)
+[93m  9 [0madd a cheat day button with a (3/5 days remaningg[13;1H[93m    [0m) counter
+[93m 10 [0mMake the app pretty
+[93m 11 
+ 12 [0m-- EXTRA --
+[93m 13 [0mcreate a searching mode to find the box on the ll[18;1H[93m    [0mocal network
+[94m~                                                   [20;1H~                                                   [21;1H~                                                   [22;1H~                                                   [23;1H~                                                   [24;1H~                                                   [25;1H~                                                   [26;1H~                                                   [27;1H~                                                   [28;1H~                                                   [29;1H~                                                   [30;1H~                                                   [31;1H~                                                   [32;1H~                                                   [33;1H~                                                   [34;1H~                                                   [35;1H~                                                   [36;1H~                                                   [37;1H~                                                   [38;1H~                                                   [39;1H~                                                   [40;1H~                                                   [41;1H~                                                   [42;1H~                                                   [43;1H~                                                   [0m[44;1H[1m[7mtodo.md                           1,1            All[1;5H[0m[45;42Hi[1;5H[45;42H [1;5H[45;1H[1m-- INSERT --[0m[45;13H[K[1;5H[1;5H[K[2;5Hget a box and setup box with lock[2;38H[K[3;5Hhave the box keep track of its open/close state[4;5Hchange openBox() to toggleBox()[4;36H[K[5;5Hprevent the servo from moving every so often[5;49H[K[6;3H[93m6[0m[1Cstore the music hours, cheat days, days meditatee[7;1H[93m   [0m[1Cd, and binge drink days[7;28H[K[8;5Hadd endpoints for all of these things[8;42H[K[9;3H[93m8[0m[1Cdon't let the box open if behind, if not meditatt[10;1H[93m   [0m[1Ced, or if too many drink days[10;35H[K[11;3H[93m9[0m[1Cclose the box once a day late in the am (5AM or  [12;1H[93m   [0m[1Cso)[12;9H[K[13;2H[93m10[0m[1Cadd a cheat day button with a (3/5 days remaningg[14;1H[93m   [0m[1C) counter[14;14H[K[15;5HMake the app pretty[16;5H[K[17;5H-- EXTRA -- [17;17H[K[18;2H[93m14[0m[1Ccreate a searching mode to find the box on the ll[19;1H[93m    [0mocal network[19;17H[K[44;9H[1m[7m[+][23C2[2;5H[44;35H1[1;5H[0mf[44;37H[1m[7m2[1;6H[0me[44;37H[1m[7m3[1;7H[0me[44;37H[1m[7m4[1;8H[0md[44;37H[1m[7m5[1;9H[44;37H6[1;10H[0md[44;37H[1m[7m7[1;11H[0mo[44;37H[1m[7m8[1;12H[0mg[44;37H[1m[7m9[1;13H[0ms[44;37H[1m[7m10[1;14H[0m[45;1H[K[1;13H[45;42H^[[1;13H[45;42H  [1;14H[44;37H[1m[7m9 [1;13H[0m[45;42H:[1;13H[45;42H[K[45;1H:w"todo.md" 14L, 562C written[1;13H[44;9H[1m[7m   [1;13H[0m[45;42H^[[1;13H[45;42H  [1;13H[45;42H:[1;13H[45;1H[K[45;1H:wq"todo.md" 14L, 562C written
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear
+[3J[H[2J]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mls
+App.js           [0m[34;42mconstants[0m      [34;42mscreens[0m
+README.md        [34;42mdocs[0m           [34;42mscripts[0m
+app.json         [34;42mnavigation[0m     todo.md
+[34;42massets[0m           [34;42mnode_modules[0m   typescript
+babel.config.js  npm-debug.log
+[34;42mcomponents[0m       package.json
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m/cr[K[Kscr[K[K[K[Kscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear
+[3J[H[2J]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear
+[3J[H[2J]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear[C[Cscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m^C
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear
+[3J[H[2J]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mclear[C[Cscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m~scripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+^[[A]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://192.168.1.3:7272/toggle&#039;</tt>
+               caused an error:</p>
+            <pre>Unhandled exception</pre>
+        </body>
+    </html>
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[K]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+{"isOpen": true}]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+{"isOpen": false}]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+{"isOpen": true}]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mscripts/toggle.sh 
+{"isOpen": false}]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mvim a[KApp.js 
+[m[m[0m[H[2J[45;1H"App.js" 81L, 2077C[2;1H▽[6n[2;1H  [1;1H[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View,  [3;1H[93m    [0mText, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Componentt[28;1H[93m    [0m [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.statee[37;1H[93m    [0m.isMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.''[0m[39;1H[93m    [0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[1m[7mApp.js                            1,1            Top[1;5H[0m[45;42H~@k[1;5H[45;42H   [2;5H[44;35H[1m[7m2[2;5H[0m[45;42H~@k[2;5H[45;42H   [4;5H[44;35H[1m[7m3[4;5H[0m[45;42H~@k[4;5H[45;42H   [5;5H[44;35H[1m[7m4,0-1[5;5H[0m[45;42H~@k[5;5H[45;42H   [6;5H[44;35H[1m[7m5,1  [6;5H[0m[45;42H~@k[6;5H[45;42H   [7;5H[44;35H[1m[7m6,0-1[7;5H[0m[45;42H~@k[7;5H[45;42H   [8;5H[44;35H[1m[7m7,1  [8;5H[0m[45;42H~@k[8;5H[45;42H   [9;5H[44;35H[1m[7m8[9;5H[0m[45;42H~@k[9;5H[45;42H   [10;5H[44;35H[1m[7m9[10;5H[0m[45;42H~@k[10;5H[45;42H   [11;5H[44;35H[1m[7m10,1[11;5H[0m[45;42H~@k[11;5H[45;42H   [12;5H[44;36H[1m[7m1[12;5H[0m[45;42H~@k[12;5H[45;42H   [13;5H[44;36H[1m[7m2[13;5H[0m[45;42H~@k[13;5H[45;42H   [14;5H[44;36H[1m[7m3[14;5H[0m[45;42H~@k[14;5H[45;42H   [15;5H[44;36H[1m[7m4[15;5H[0m[45;42H~@k[15;5H[45;42H   [16;5H[44;36H[1m[7m5[16;5H[0m[45;42H~@k[16;5H[45;42H   [17;5H[44;36H[1m[7m6[17;5H[0m[45;42H^[[17;5H[45;42H  [17;5H[45;42H^[[17;5H[45;44H[[17;5H[45;42H   [17;5H[45;42H~@k[17;5H[45;42H   [18;5H[44;36H[1m[7m7[18;5H[0m[45;42H~@k[18;5H[45;42H   [19;5H[44;36H[1m[7m8[19;5H[0m[45;42H~@k[19;5H[45;42H   [20;5H[44;36H[1m[7m9[20;5H[0m[45;42H~@k[20;5H[45;42H   [21;5H[44;35H[1m[7m20[21;5H[0m[45;42H~@k[21;5H[45;42H   [22;5H[44;36H[1m[7m1[22;5H[0m[45;42H~@k[22;5H[45;42H   [23;5H[44;36H[1m[7m2[23;5H[0m[45;42H~@k[23;5H[45;42H   [24;5H[44;36H[1m[7m3[24;5H[0m[45;42H~@k[24;5H[45;42H   [25;5H[8;38H[1m[96m[46m{[25;5H}[0m[44;36H[1m[7m4[25;5H[0m[45;42H~@k[25;5H[45;42H   [26;5H[8;38H[1m[96m{[25;5H}[0m[44;36H[1m[7m5,0-1[26;5H[0m[45;42H~@k[26;5H[45;42H   [27;5H[44;36H[1m[7m6,1  [27;5H[0m[45;42H~@k[27;5H[45;42H   [29;5H[44;36H[1m[7m7[29;5H[0m[45;42H~@k[29;5H[45;42H   [30;5H[44;36H[1m[7m8[30;5H[0m[45;42H~@k[30;5H[45;42H   [31;5H[44;36H[1m[7m9[31;5H[0m[45;42H~@k[31;5H[45;42H   [32;5H[44;35H[1m[7m30[32;5H[0m[45;42H~@k[32;5H[45;42H   [33;5H[44;36H[1m[7m1,0-1[33;5H[0m[45;42H^[[33;5H[45;42H  [33;5H[45;42H~@k[33;5H[45;42H   [34;5H[44;36H[1m[7m2,1  [34;5H[0m[45;42H~@k[34;5H[45;42H   [35;5H[44;36H[1m[7m3[35;5H[0m[45;42H~@k[35;5H[45;42H   [36;5H[44;36H[1m[7m4[36;5H[0m[45;42H~@k[36;5H[45;42H   [38;5H[44;36H[1m[7m5[38;5H[0m[45;42H^[[38;5H[45;42H  [38;5H[45;42H~@k[38;5H[45;42H   [40;5H[44;36H[1m[7m6[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 40 [0m    [96m// send a post request to open the box[0m[45;1H[K[44;36H[1m[7m7[13C 2%[40;5H[0m[45;42H^[[40;5H[45;42H  [40;5H[45;42H~@k[40;5H[45;42H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[93m 42 [0m      method: [95m'post'[0m,[44;36H[1m[7m8[14C4[39;5H[0m[45;42H~@k[39;5H[45;42H   [40;5H[44;36H[1m[7m9[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 43 [0m      headers: [1m[96m{[0m[44;35H[1m[7m40[14C7[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 44 [0m[8CAccept: [95m'application/json'[0m,[44;36H[1m[7m1[14C9[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 45 [0m[8C[95m'Content-Type'[0m: [95m'application/json'[0m[44;36H[1m[7m2[13C12[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 46 [0m      [1m[96m}[0m,[44;36H[1m[7m3[14C4[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 47 [0m      body: [95m''[0m[44;36H[1m[7m4[14C7[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 48 [0m    [1m[96m}[0m)[44;36H[1m[7m5[14C9[40;5H[0m[45;42H^[[40;5H[45;44H[[40;5H[45;42H   [40;5H[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 49 [0m    .then((res) => res.json())[44;36H[1m[7m6[13C21[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 50 [0m    .then((data)=>[1m[96m{[0m[44;36H[1m[7m7[14C4[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 51 [0m      [1m[96mthis[0m.setState([1m[96m{[0misBoxOpen: data.isOpen[1m[96m}[0m)[44;36H[1m[7m8[14C6[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 52 [0m    [1m[96m}[0m)[44;36H[1m[7m9[14C9[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 53 [0m    .[93mcatch[0m((err)=>[1m[96m{[0m[44;35H[1m[7m50[13C31[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 54 [0m      console.log([95m'Error opening box: '[0m + err)[44;36H[1m[7m1[14C4[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 55 [0m    [1m[96m}[0m)[44;36H[1m[7m2[14C6[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 56 [0m  [1m[96m}[0m[44;36H[1m[7m3[14C9[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 57 [0m[44;36H[1m[7m4[13C41[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 58 [0m  render() [1m[96m{[0m[44;36H[1m[7m5[14C3[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 59 [0m    [93mreturn[0m ([44;36H[1m[7m6[14C6[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 60 [0m      <View style=[1m[96m{[0mstyles.container[1m[96m}[0m>[44;36H[1m[7m7,0-1[10C8[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 61 [0m[8C<Text>Todo List:</Text>[44;36H[1m[7m8,1  [9C51[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 62 [0m[44;36H[1m[7m9[14C3[40;5H[0m[45;42H~@k[40;5H[45;42H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 63 [0m[8C<View style=[1m[96m{[0mstyles.switchContainer[1m[96m}[0m>[44;35H[1m[7m60[14C6[40;5H[0m[45;42H~@k[40;5H[45;42H   [39;5H[44;35H[1m[7m59[39;5H[0m[45;42H~@k[39;5H[45;42H   [38;5H[44;36H[1m[7m8[38;5H[0m[45;42H~@k[38;5H[45;42H   [37;5H[44;36H[1m[7m7,0-1[37;5H[0m[45;42H~@k[37;5H[45;42H   [36;5H[44;36H[1m[7m6,1  [36;5H[0m[45;42H~@k[36;5H[45;42H   [35;5H[44;36H[1m[7m5[35;5H[0m[45;42H~@k[35;5H[45;42H   [34;5H[44;36H[1m[7m4[34;5H[0m[45;42H~@k[34;5H[45;42H   [33;5H[44;36H[1m[7m3[33;5H[0m[45;42H~@k[33;5H[45;42H   [32;5H[44;36H[1m[7m2[32;5H[0m[45;42H~@k[32;5H[45;42H   [31;5H[44;36H[1m[7m1[31;5H[0m[45;42H~@k[31;5H[45;42H   [30;5H[44;36H[1m[7m0[30;5H[0m[45;42H^[[30;5H[45;42H  [30;5H[45;42H:[30;5H[45;42H[K[45;1H:w"App.js" 81L, 2077C written[30;5H[45;42H^[[30;5H[45;42H  [30;5H[45;42H:[30;5H[45;1H[K[45;1H:wq"App.js" 81L, 2077C written
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mgit add . && git commit -m "" [1P [C[K"a"d"d"e"d" "[1P"[1P"[1P"[1P"[1P"[1P"c"h"a"n"g"e"d" "t"o" "t"o"l"g"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C"[C"[K[Ko"p"e"n"i"n"g" "s"e"l"e"c" [A]0;leonkuhne@x ~/NewYearsBox[33m¤ [39m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct""i"o"n" "t"o" "g"o"o"[1P"[1P"[1P"m"w"o"[1P"[1P"[1P"t"o"g"g"l"e" "[1P"[C && git push
+^C
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mgit add . && git commit -m "changed opening selectiion to toggle" && git push[A[C[Cvim App.js [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C
+[m[m[0m[H[2J[45;1H"App.js" 81L, 2077C[2;1H▽[6n[2;1H  [1;1H[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View,  [3;1H[93m    [0mText, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Componentt[28;1H[93m    [0m [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.statee[37;1H[93m    [0m.isMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.''[0m[39;1H[93m    [0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[1m[7mApp.js                            1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, TT[3;1H[93m    [0mext, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component  [28;1H[93m    [0m[1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state..[37;1H[93m    [0misMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)[39;1H[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[1m[7mApp.js                             1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Tee[3;1H[93m    [0mxt, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m[28;1H[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.ii[36;1H[93m    [0msMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                              1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Texx[3;1H[93m    [0mt, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.iss[36;1H[93m    [0mMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                               1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Textt[3;1H[93m    [0m, Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMM[36;1H[93m    [0meditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text,,[3;1H[93m    [0m Switch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMee[36;1H[93m    [0mditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                 1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text,  [3;1H[93m    [0mSwitch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMedd[36;1H[93m    [0mitationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                  1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, SS[3;1H[93m    [0mwitch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMedii[36;1H[93m    [0mtationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                   1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Sww[3;1H[93m    [0mitch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditt[36;1H[93m    [0mationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                    1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Swii[3;1H[93m    [0mtch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditaa[36;1H[93m    [0mtionDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                     1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switt[3;1H[93m    [0mch [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditatt[36;1H[93m    [0mionDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                      1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switcc[3;1H[93m    [0mh [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditatii[36;1H[93m    [0monDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                       1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switchh[3;1H[93m    [0m [1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditatioo[36;1H[93m    [0mnDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                        1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch  [3;1H[93m    [0m[1m[96m}[0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationn[36;1H[93m    [0mDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                         1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}}[0m[3;1H[93m    [0m from [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDD[36;1H[93m    [0mone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                          1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m  [3;1H[93m    [0mfrom [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDoo[36;1H[93m    [0mne[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                           1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m ff[3;1H[93m    [0mrom [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDonn[36;1H[93m    [0me[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                            1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m frr[3;1H[93m    [0mom [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDonee[36;1H[93m    [0m[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                             1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m froo[3;1H[93m    [0mm [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}}[0m[36;1H[93m    [0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                              1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m fromm[3;1H[93m    [0m [95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m,,[36;1H[93m    [0m ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                               1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from  [3;1H[93m    [0m[95m'react-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m,  [36;1H[93m    [0m()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                                1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m''[0m[3;1H[93m    [0m[95mreact-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, (([36;1H[93m    [0m)=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                                 1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m'rr[0m[3;1H[93m    [0m[95meact-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, ())[36;1H[93m    [0m=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                                  1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m'ree[0m[3;1H[93m    [0m[95mact-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, ()==[36;1H[93m    [0m>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                                   1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m'reaa[0m[3;1H[93m    [0m[95mct-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, ()=>>[36;1H[93m    [0m[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[1m[7mApp.js                                                    1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m'reacc[0m[3;1H[93m    [0m[95mt-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m[36;1H[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[93m 42 [0m      method: [95m'post'[0m,
+[1m[7mApp.js                                                     1,1            Top[1;5H[m[m[0m[H[2J[1;1H[93m  1 [0m[93mimport[0m React from [95m'react'[0m
+[93m  2 [0m[93mimport[0m [1m[96m{[0m Platform, StatusBar, StyleSheet, View, Text, Switch [1m[96m}[0m from [95m'reactt[0m[3;1H[93m    [0m[95m-native'[0m
+[93m  3 [0m[93mimport[0m Colors from [95m'./constants/Colors'[0m
+[93m  4 
+  5 [0m[93mconst[0m PI_URL = [95m'http://192.168.1.3:7272'[0m
+[93m  6 
+  7 [0m[93mconst[0m styles = StyleSheet.create([1m[96m{[0m
+[93m  8 [0m  container: [1m[96m{[0m
+[93m  9 [0m    flex: 1,
+[93m 10 [0m    backgroundColor: [95m'#fff'[0m,
+[93m 11 [0m    paddingVertical: 50,
+[93m 12 [0m  [1m[96m}[0m,
+[93m 13 [0m  switchContainer: [1m[96m{[0m
+[93m 14 [0m    display: [95m'flex'[0m,
+[93m 15 [0m    alignItems: [95m'center'[0m,
+[93m 16 [0m    flexDirection: [95m'row'[0m,
+[93m 17 [0m    justifyContent: [95m'space-between'[0m,
+[93m 18 [0m    marginBottom: 16,
+[93m 19 [0m    paddingHorizontal: 15
+[93m 20 [0m  [1m[96m}[0m,
+[93m 21 [0m  switchLabel: [1m[96m{[0m
+[93m 22 [0m    flex: 0
+[93m 23 [0m  [1m[96m}[0m
+[93m 24 [0m[1m[96m}[0m)
+[93m 25 
+ 26 [0m[93mexport[0m [93mdefault[0m [93mclass[0m App [93mextends[0m React.Component [1m[96m{[0m
+[93m 27 [0m  state = [1m[96m{[0m
+[93m 28 [0m    isMeditationDone: [95mfalse[0m,
+[93m 29 [0m    isBoxOpen: [95mfalse[0m
+[93m 30 [0m  [1m[96m}[0m
+[93m 31 
+ 32 [0m  completeMeditation = () => [1m[96m{[0m
+[93m 33 [0m    console.log([95m'Toggling Meditation'[0m)
+[93m 34 [0m    [1m[96mthis[0m.setState([1m[96m{[0misMeditationDone: ![1m[96mthis[0m.state.isMeditationDone[1m[96m}[0m, ()=>[1m[96m{[0m
+[93m 35 [0m      console.log([95m'Meditation has been toggled.'[0m)
+[93m 36 [0m    [1m[96m}[0m)
+[93m 37 [0m  [1m[96m}[0m
+[93m 38 
+ 39 [0m  toggleBox = () => [1m[96m{[0m
+[93m 40 [0m    [96m// send a post request to open the box[0m
+[93m 41 [0m  fetch(PI_URL + [95m'/toggle'[0m, [1m[96m{[0m
+[93m 42 [0m      method: [95m'post'[0m,
+[1m[7mApp.js                                                      1,1            Top[1;5H[0m[45;68H~@k[1;5H[45;68H   [1;5H[45;68H^[[1;5H[45;68H  [1;5H[45;68H~@k[1;5H[45;68H   [2;5H[44;61H[1m[7m2[2;5H[0m[45;68H~@k[2;5H[45;68H   [4;5H[44;61H[1m[7m3[4;5H[0m[45;68H~@k[4;5H[45;68H   [5;5H[44;61H[1m[7m4,0-1[5;5H[0m[45;68H~@k[5;5H[45;68H   [6;5H[44;61H[1m[7m5,1  [6;5H[0m[45;68H~@k[6;5H[45;68H   [7;5H[44;61H[1m[7m6,0-1[7;5H[0m[45;68H~@k[7;5H[45;68H   [8;5H[44;61H[1m[7m7,1  [8;5H[0m[45;68H^[[8;5H[45;68H  [8;5H[45;68H~@k[8;5H[45;68H   [9;5H[44;61H[1m[7m8[9;5H[0m[45;68H~@k[9;5H[45;68H   [10;5H[44;61H[1m[7m9[10;5H[0m[45;68H~@k[10;5H[45;68H   [11;5H[44;61H[1m[7m10,1[11;5H[0m[45;68H~@k[11;5H[45;68H   [12;5H[44;62H[1m[7m1[12;5H[0m[45;68H~@k[12;5H[45;68H   [13;5H[44;62H[1m[7m2[13;5H[0m[45;68H~@k[13;5H[45;68H   [14;5H[44;62H[1m[7m3[14;5H[0m[45;68H~@k[14;5H[45;68H   [15;5H[44;62H[1m[7m4[15;5H[0m[45;68H^[[15;5H[45;70H[[15;5H[45;68H   [15;5H[45;68H~@k[15;5H[45;68H   [16;5H[44;62H[1m[7m5[16;5H[0m[45;68H~@k[16;5H[45;68H   [17;5H[44;62H[1m[7m6[17;5H[0m[45;68H~@k[17;5H[45;68H   [18;5H[44;62H[1m[7m7[18;5H[0m[45;68H^[[18;5H[45;68H  [18;5H[45;68H~@k[18;5H[45;68H   [19;5H[44;62H[1m[7m8[19;5H[0m[45;68H^[[19;5H[45;68H  [19;5H[45;68H~@k[19;5H[45;68H   [20;5H[44;62H[1m[7m9[20;5H[0m[45;68H^[[20;5H[45;68H  [20;5H[45;68H~@k[20;5H[45;68H   [21;5H[44;61H[1m[7m20[21;5H[0m[45;68H~@k[21;5H[45;68H   [22;5H[44;62H[1m[7m1[22;5H[0m[45;68H~@k[22;5H[45;68H   [23;5H[44;62H[1m[7m2[23;5H[0m[45;68H~@k[23;5H[45;68H   [24;5H[44;62H[1m[7m3[24;5H[0m[45;68H~@k[24;5H[45;68H   [25;5H[8;38H[1m[96m[46m{[25;5H}[0m[44;62H[1m[7m4[25;5H[0m[45;68H^[[25;5H[45;70H[[25;5H[45;68H   [25;5H[45;68H~@k[25;5H[45;68H   [26;5H[8;38H[1m[96m{[25;5H}[0m[44;62H[1m[7m5,0-1[26;5H[0m[45;68H~@k[26;5H[45;68H   [27;5H[44;62H[1m[7m6,1  [27;5H[0m[45;68H~@k[27;5H[45;68H   [28;5H[44;62H[1m[7m7[28;5H[0m[45;68H~@k[28;5H[45;68H   [29;5H[44;62H[1m[7m8[29;5H[0m[45;68H~@k[29;5H[45;68H   [30;5H[44;62H[1m[7m9[30;5H[0m[45;68H^[[30;5H[45;70H[[30;5H[45;68H   [30;5H[45;68H~@k[30;5H[45;68H   [31;5H[44;61H[1m[7m30[31;5H[0m[45;68H~@k[31;5H[45;68H   [32;5H[44;62H[1m[7m1,0-1[32;5H[0m[45;68H~@k[32;5H[45;68H   [33;5H[44;62H[1m[7m2,1  [33;5H[0m[45;68H~@k[33;5H[45;68H   [34;5H[44;62H[1m[7m3[34;5H[0m[45;68H~@k[34;5H[45;68H   [35;5H[44;62H[1m[7m4[35;5H[0m[45;68H~@k[35;5H[45;68H   [36;5H[44;62H[1m[7m5[36;5H[0m[45;68H~@k[36;5H[45;68H   [37;5H[44;62H[1m[7m6[37;5H[0m[45;68H^[[37;5H[45;70H[[37;5H[45;68H   [37;5H[45;68H~@k[37;5H[45;68H   [38;5H[44;62H[1m[7m7[38;5H[0m[45;68H~@k[38;5H[45;68H   [39;5H[44;62H[1m[7m8[39;5H[0m[45;68H~@k[39;5H[45;68H   [40;5H[44;62H[1m[7m9[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 43 [0m      headers: [1m[96m{[0m[44;61H[1m[7m40[13C 2%[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 44 [0m[8CAccept: [95m'application/json'[0m,
+[93m 45 [0m[8C[95m'Content-Type'[0m: [95m'application/json'[0m[44;62H[1m[7m1[14C5[39;5H[0m[45;68H^[[39;5H[45;70H[[39;5H[45;68H   [39;5H[45;68H~@k[39;5H[45;68H   [40;5H[44;62H[1m[7m2[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 46 [0m      [1m[96m}[0m,[44;62H[1m[7m3[14C7[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 47 [0m      body: [95m''[0m[44;62H[1m[7m4[13C10[40;5H[0m[45;68H^[[40;5H[45;70H[[40;5H[45;68H   [40;5H[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 48 [0m    [1m[96m}[0m)[44;62H[1m[7m5[14C3[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 49 [0m    .then((res) => res.json())[44;62H[1m[7m6[14C5[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 50 [0m    .then((data)=>[1m[96m{[0m[44;62H[1m[7m7[14C8[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 51 [0m      [1m[96mthis[0m.setState([1m[96m{[0misBoxOpen: data.isOpen[1m[96m}[0m)[44;62H[1m[7m8[13C21[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 52 [0m    [1m[96m}[0m)[44;62H[1m[7m9[14C3[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 53 [0m    .[93mcatch[0m((err)=>[1m[96m{[0m[44;61H[1m[7m50[14C6[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 54 [0m      console.log([95m'Error opening box: '[0m + err)[44;62H[1m[7m1[14C8[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 55 [0m    [1m[96m}[0m)[44;62H[1m[7m2[13C31[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 56 [0m  [1m[96m}[0m[44;62H[1m[7m3[14C4[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 57 [0m[44;62H[1m[7m4[14C6[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 58 [0m  render() [1m[96m{[0m[44;62H[1m[7m5[14C9[40;5H[0m[45;68H^[[40;5H[45;68H  [40;5H[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 59 [0m    [93mreturn[0m ([44;62H[1m[7m6[13C42[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 60 [0m      <View style=[1m[96m{[0mstyles.container[1m[96m}[0m>[44;62H[1m[7m7,0-1[10C4[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 61 [0m[8C<Text>Todo List:</Text>[44;62H[1m[7m8,1  [10C7[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 62 [0m[44;62H[1m[7m9[13C50[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 63 [0m[8C<View style=[1m[96m{[0mstyles.switchContainer[1m[96m}[0m>[44;61H[1m[7m60[14C2[40;5H[0m[45;68H^[[40;5H[45;68H  [40;5H[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 64 [0m[10C<Text style=[1m[96m{[0mstyles.switchLabel[1m[96m}[0m>Music</Text>[44;62H[1m[7m1[14C5[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 65 [0m[10C<Text>132/500</Text>[44;62H[1m[7m2[14C7[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 66 [0m[8C</View>[44;62H[1m[7m3[13C60[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 67 [0m[44;62H[1m[7m4[14C3[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 68 [0m[8C<View style=[1m[96m{[0mstyles.switchContainer[1m[96m}[0m>[44;62H[1m[7m5[14C5[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 69 [0m[10C<Text style=[1m[96m{[0mstyles.switchLabel[1m[96m}[0m>Meditate</Text>[44;62H[1m[7m6[14C8[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 70 [0m[10C<Switch trackColor=[1m[96m{{[0m[95mtrue[0m: Colors.tintColor[1m[96m}}[0m onValueChange=[1m[96m{[0m()  [43;1H[93m    [0m=> [1m[96mthis[0m.completeMeditation()[1m[96m}[0m value=[1m[96m{this[0m.state.isMeditationDone[1m[96m}[0m />[44;62H[1m[7m7,0-1[9C71[39;5H[0m[45;68H~@k[39;5H[45;68H   [40;5H[44;62H[1m[7m8,1  [40;5H[0m[45;68H^[[40;5H[45;68H  [40;5H[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 71 [0m[8C</View>[44;62H[1m[7m9[14C4[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 72 
+ 73 [0m[8C<View style=[1m[96m{[0mstyles.switchContainer[1m[96m}[0m>[44;61H[1m[7m70[14C9[39;5H[0m[45;68H~@k[39;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 74 [0m[10C<Text style=[1m[96m{[0mstyles.switchLabel[1m[96m}[0m>Open Box</Text>[44;62H[1m[7m1[13C82[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 75 [0m[10C<Switch trackColor=[1m[96m{{[0m[95mtrue[0m: Colors.tintColor[1m[96m}}[0m onValueChange=[1m[96m{[0m()  [43;1H[93m    [0m=> [1m[96mthis[0m.toggleBox()[1m[96m}[0m value=[1m[96m{this[0m.state.isBoxOpen [1m[96m}[0m />[44;62H[1m[7m2,0-1[10C5[39;5H[0m[45;68H~@k[39;5H[45;68H   [40;5H[44;62H[1m[7m3,1  [40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 76 [0m[8C</View>[44;62H[1m[7m4[14C7[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[1;1H[2M[42;1H[2L[42;1H[93m 77 
+ 78 [0m      </View>[44;62H[1m[7m5[13C92[39;5H[0m[45;68H~@k[39;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 79 [0m    )[44;62H[1m[7m6[14C5[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 80 [0m  [1m[96m}[0m[44;62H[1m[7m7,0-1[10C7[40;5H[0m[45;68H~@k[40;5H[45;68H   [40;5H[45;1H
+[43;1H[L[43;1H[93m 81 [0m[1m[96m}[0m[44;62H[1m[7m8,1  [9CBot[40;5H[0m[45;68H~@k[40;5H[45;68H   [41;5H[44;62H[1m[7m9[41;5H[0m[45;68H~@k[41;5H[45;68H   [42;5H[44;61H[1m[7m80[42;5H[0m[45;68H^[[42;5H[45;68H  [42;5H[45;68H~@k[42;5H[45;68H   [43;5H[44;62H[1m[7m1[43;5H[0m[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H^[[43;5H[45;68H  [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [43;5H[45;68H~@k[43;5H[45;68H   [42;5H[44;62H[1m[7m0[42;5H[0m[45;68H^[[42;5H[45;68H  [42;5H[45;68H~@k[42;5H[45;68H   [41;5H[44;61H[1m[7m79[41;5H[0m[45;68H~@k[41;5H[45;68H   [40;5H[44;62H[1m[7m8[40;5H[0m[45;68H~@k[40;5H[45;68H   [39;5H[44;62H[1m[7m7,0-1[39;5H[0m[45;68H~@k[39;5H[45;68H   [38;5H[44;62H[1m[7m6,1  [38;5H[0m[45;68H~@k[38;5H[45;68H   [36;5H[44;62H[1m[7m5[36;5H[0m[45;68H~@k[36;5H[45;68H   [38;5H[44;62H[1m[7m6[38;5H[0m[45;68H~@k[38;5H[45;68H   [38;6H[44;64H[1m[7m2[38;6H[0m[45;68H~@k[38;6H[45;68H   [38;7H[44;64H[1m[7m3[38;7H[0m[45;68H~@k[38;7H[45;68H   [38;8H[44;64H[1m[7m4[38;8H[0m[45;68H^[[38;8H[45;68H  [38;8H[45;68H~@k[38;8H[45;68H   [38;9H[44;64H[1m[7m5[38;9H[0m[45;68H~@k[38;9H[45;68H   [38;10H[44;64H[1m[7m6[38;10H[0m[45;68H~@k[38;10H[45;68H   [38;11H[44;64H[1m[7m7[38;11H[0m[45;68H~@k[38;11H[45;68H   [38;12H[44;64H[1m[7m8[38;12H[0m[45;68H~@k[38;12H[45;68H   [38;13H[46m<[0m/View[46m>[0m[44;64H[1m[7m9[38;13H[0m[45;68H~@k[38;13H[45;68H   [38;14H</View>[44;64H[1m[7m10[38;14H[0m[45;68H~@k[38;14H[45;68H   [38;15H[44;65H[1m[7m1[38;15H[0m[45;68H~@k[38;15H[45;68H   [38;16H[44;65H[1m[7m2[38;16H[0m[45;68H~@k[38;16H[45;68H   [36;16H[44;62H[1m[7m5[36;16H[0m[45;68H~@k[36;16H[45;68H   [36;17H[44;65H[1m[7m3[36;17H[0m[45;68H~@k[36;17H[45;68H   [36;18H[44;65H[1m[7m4[36;18H[0m[45;68H~@k[36;18H[45;68H   [36;19H[44;65H[1m[7m5[36;19H[0m[45;68H~@k[36;19H[45;68H   [36;20H[44;65H[1m[7m6[36;20H[0m[45;68H^[[36;20H[45;68H  [36;20H[45;68H~@k[36;20H[45;68H   [36;21H[44;65H[1m[7m7[36;21H[0m[45;68H~@k[36;21H[45;68H   [36;22H[44;65H[1m[7m8[36;22H[0m[45;68H~@k[36;22H[45;68H   [36;23H[44;65H[1m[7m9[36;23H[0m[45;68H~@k[36;23H[45;68H   [36;24H[44;64H[1m[7m20[36;24H[0m[45;68H~@k[36;24H[45;68H   [36;25H[44;65H[1m[7m1[36;25H[0m[45;68H~@k[36;25H[45;68H   [36;26H[44;65H[1m[7m2[36;26H[0m[45;68H~@k[36;26H[45;68H   [36;27H[44;65H[1m[7m3[36;27H[0m[45;68H~@k[36;27H[45;68H   [36;28H[44;65H[1m[7m4[36;28H[0m[45;68H~@k[36;28H[45;68H   [36;29H[44;65H[1m[7m5[36;29H[0m[45;68H~@k[36;29H[45;68H   [36;30H[44;65H[1m[7m6[36;30H[0m[45;68H~@k[36;30H[45;68H   [36;31H[44;65H[1m[7m7[36;31H[0m[45;68H~@k[36;31H[45;68H   [36;32H[44;65H[1m[7m8[36;32H[0m[45;68H~@k[36;32H[45;68H   [36;33H[44;65H[1m[7m9[36;33H[0m[45;68H~@k[36;33H[45;68H   [36;34H[1m[96m[46m{[24C}[0m[18C  [37;1H[93m [0m[44;64H[1m[7m30[36;34H[0m[45;68H~@k[36;34H[45;68H   [36;35H[1m[96m{[0m[1m[96m[46m{[22C}[0m[1m[96m}[0m[18C  [37;1H[93m [0m[44;65H[1m[7m1[36;35H[0m[45;68H~@k[36;35H[45;68H   [36;36H[1m[96m{[22C}[0m[19C  [37;1H[93m [0m[44;65H[1m[7m2[36;36H[0m[45;68H~@k[36;36H[45;68H   [36;37H[44;65H[1m[7m3[36;37H[0m[45;68H~@k[36;37H[45;68H   [36;38H[44;65H[1m[7m4[36;38H[0m[45;68H~@k[36;38H[45;68H   [36;39H[44;65H[1m[7m5[36;39H[0m[45;68H~@k[36;39H[45;68H   [36;40H[44;65H[1m[7m6[36;40H[0m[45;68H~@k[36;40H[45;68H   [36;41H[44;65H[1m[7m7[36;41H[0m[45;68H^[[36;41H[45;68H  [36;41H[45;68H~@k[36;41H[45;68H   [36;42H[44;65H[1m[7m8[36;42H[0m[45;68H~@k[36;42H[45;68H   [36;43H[44;65H[1m[7m9[36;43H[0m[45;68H~@k[36;43H[45;68H   [36;44H[44;64H[1m[7m40[36;44H[0m[45;68H~@k[36;44H[45;68H   [36;45H[44;65H[1m[7m1[36;45H[0m[45;68H^[[36;45H[45;68H  [36;45H[45;68H~@k[36;45H[45;68H   [36;46H[44;65H[1m[7m2[36;46H[0m[45;68H~@k[36;46H[45;68H   [36;47H[44;65H[1m[7m3[36;47H[0m[45;68H^[[36;47H[45;68H  [36;47H[45;68H~@k[36;47H[45;68H   [36;48H[44;65H[1m[7m4[36;48H[0m[45;68H~@k[36;48H[45;68H   [36;49H[44;65H[1m[7m5[36;49H[0m[45;68H~@k[36;49H[45;68H   [36;50H[44;65H[1m[7m6[36;50H[0m[45;68H~@k[36;50H[45;68H   [36;51H[44;65H[1m[7m7[36;51H[0m[45;68H^[[36;51H[45;68H  [36;51H[45;68H~@k[36;51H[45;68H   [36;52H[44;65H[1m[7m8[36;52H[0m[45;68H~@k[36;52H[45;68H   [36;53H[44;65H[1m[7m9[36;53H[0m[45;68H~@k[36;53H[45;68H   [36;54H[44;64H[1m[7m50[36;54H[0m[45;68H~@k[36;54H[45;68H   [35;54H[44;62H[1m[7m4[35;54H[0m[45;68H~@k[35;54H[45;68H   [35;55H[44;65H[1m[7m1[35;55H[0m[45;68H~@k[35;55H[45;68H   [35;56H[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m[45;68H~@k[35;56H[45;68H   [35;57H</Text>[44;65H[1m[7m3[35;57H[0m[45;68H~@k[35;57H[45;68H   [35;56H[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m[45;68Hi[35;56H[45;68H [35;56H[45;1H[1m-- INSERT --[35;56H[0m<[46m/[0mText>[35;62H[K[44;8H[1m[7m[+][54C1[0m[35;55H[46m<[0m/Text[46m>[35;55H[0m<[46m/[0mText>[35;61H[K[35;54H[46m<[0m/Text[46m>[0m[44;65H[1m[7m0[35;54H[0m<[46m/[0mText>[35;60H[K[35;53H[46m<[0m/Text[46m>[0m[44;64H[1m[7m49[35;53H[0m<[46m/[0mText>[35;59H[K[35;52H[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;52H[0m<[46m/[0mText>[35;58H[K[35;51H[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;51H[0m<[46m/[0mText>[35;57H[K[35;50H[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;50H[0m<[46m/[0mText>[35;56H[K[35;49H[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m<[46m/[0mText>[35;55H[K[35;48H[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;48H[0m[46mT[0m</Tex[46mt[0m>[35;48HT[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m[46mo[0m</Tex[46mt[0m>[35;49Ho[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;50H[0m[46mg[0m</Tex[46mt[0m>[35;50Hg[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;51H[0m[46mg[0m</Tex[46mt[0m>[35;51Hg[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;52H[0m[46ml[0m</Tex[46mt[0m>[35;52Hl[46m<[0m/Text[46m>[0m[44;65H[1m[7m9[35;53H[0m[46me[0m</Tex[46mt[0m>[35;53He[46m<[0m/Text[46m>[0m[44;64H[1m[7m50[35;54H[0m[46m [0m</Tex[46mt[0m>[35;54H [46m<[0m/Text[46m>[0m[44;65H[1m[7m1[35;55H[0m[46mB[0m</Tex[46mt[0m>[35;55HB[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m[46mo[0m</Tex[46mt[0m>[35;56Ho[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m[46mx[0m</Tex[46mt[0m>[35;57Hx[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;58H[0m<[46m/[0mText>[35;64H[K[35;57H[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m<[46m/[0mText>[35;63H[K[35;56H[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m<[46m/[0mText>[35;62H[K[35;55H[46m<[0m/Text[46m>[0m[44;65H[1m[7m1[35;55H[0m<[46m/[0mText>[35;61H[K[35;54H[46m<[0m/Text[46m>[0m[44;65H[1m[7m0[35;54H[0m<[46m/[0mText>[35;60H[K[35;53H[46m<[0m/Text[46m>[0m[44;64H[1m[7m49[35;53H[0m<[46m/[0mText>[35;59H[K[35;52H[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;52H[0m<[46m/[0mText>[35;58H[K[35;51H[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;51H[0m<[46m/[0mText>[35;57H[K[35;50H[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;50H[0m<[46m/[0mText>[35;56H[K[35;49H[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m<[46m/[0mText>[35;55H[K[35;48H[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;48H[0m<[46m/[0mText>[35;54H[K[35;47H[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;47H[0m[46mE[0m</Tex[46mt[0m>[35;47HE[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;48H[0m<[46m/[0mText>[35;54H[K[35;47H[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;47H[0m[46m>[0m</Tex[46mt[0m>[44;64H[1m[7m11[35;15H[0m[32C>[46m<[0m/Text[46m>[0m[44;64H[1m[7m44[35;48H[0m[46m [0m</Tex[46mt[0m>[35;48H [46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m[46mU[0m</Tex[46mt[0m>[35;49HU[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;50H[0m<[46m/[0mText>[35;56H[K[35;49H[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m<[46m/[0mText>[35;55H[K[35;48H[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;48H[0m[46mU[0m</Tex[46mt[0m>[35;48HU[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;49H[0m[46mn[0m</Tex[46mt[0m>[35;49Hn[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;50H[0m[46ml[0m</Tex[46mt[0m>[35;50Hl[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;51H[0m[46mo[0m</Tex[46mt[0m>[35;51Ho[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;52H[0m[46mc[0m</Tex[46mt[0m>[35;52Hc[46m<[0m/Text[46m>[0m[44;65H[1m[7m9[35;53H[0m[46mk[0m</Tex[46mt[0m>[35;53Hk[46m<[0m/Text[46m>[0m[44;64H[1m[7m50[35;54H[0m[46m [0m</Tex[46mt[0m>[35;54H [46m<[0m/Text[46m>[0m[44;65H[1m[7m1[35;55H[0m[46mB[0m</Tex[46mt[0m>[35;55HB[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m[46mo[0m</Tex[46mt[0m>[35;56Ho[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m[46mx[0m</Tex[46mt[0m>[35;57Hx[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;58H[0m<[46m/[0mText>[35;64H[K[35;57H[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m<[46m/[0mText>[35;63H[K[35;56H[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m<[46m/[0mText>[35;62H[K[35;55H[46m<[0m/Text[46m>[0m[44;65H[1m[7m1[35;55H[0m[46mC[0m</Tex[46mt[0m>[35;55HC[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m[46mo[0m</Tex[46mt[0m>[35;56Ho[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m[46mn[0m</Tex[46mt[0m>[35;57Hn[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;58H[0m[46mt[0m</Tex[46mt[0m>[35;58Ht[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;59H[0m[46ma[0m</Tex[46mt[0m>[35;59Ha[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;60H[0m[46mi[0m</Tex[46mt[0m>[35;60Hi[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;61H[0m[46mn[0m</Tex[46mt[0m>[35;61Hn[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;62H[0m[46me[0m</Tex[46mt[0m>[35;62He[46m<[0m/Text[46m>[0m[44;65H[1m[7m9[35;63H[0m[46mr[0m</Tex[46mt[0m>[35;63Hr[46m<[0m/Text[46m>[0m[44;64H[1m[7m60[35;64H[0m[45;1H[K[35;63H[45;68H^[[35;63H[45;68H  [35;64H</Text>[44;64H[1m[7m59[35;63H[0m[45;68H:[35;63H[45;68H[K[45;1H:w"App.js" 81L, 2085C written[35;63H[44;8H[1m[7m   [35;63H[0m[45;68Hi[35;63H[45;68H [35;63H[45;1H[1m-- INSERT --[0m[45;13H[K[35;63Hr[46m<[0m/Text[46m>[0m[44;64H[1m[7m60[35;64H[0m<[46m/[0mText>[35;70H[K[44;8H[1m[7m[+][53C59[0m[35;63H[46m<[0m/Text[46m>[35;63H[0m<[46m/[0mText>[35;69H[K[35;62H[46m<[0m/Text[46m>[0m[44;65H[1m[7m8[35;62H[0m<[46m/[0mText>[35;68H[K[35;61H[46m<[0m/Text[46m>[0m[44;65H[1m[7m7[35;61H[0m<[46m/[0mText>[35;67H[K[35;60H[46m<[0m/Text[46m>[0m[44;65H[1m[7m6[35;60H[0m<[46m/[0mText>[35;66H[K[35;59H[46m<[0m/Text[46m>[0m[44;65H[1m[7m5[35;59H[0m<[46m/[0mText>[35;65H[K[35;58H[46m<[0m/Text[46m>[0m[44;65H[1m[7m4[35;58H[0m<[46m/[0mText>[35;64H[K[35;57H[46m<[0m/Text[46m>[0m[44;65H[1m[7m3[35;57H[0m<[46m/[0mText>[35;63H[K[35;56H[46m<[0m/Text[46m>[0m[44;65H[1m[7m2[35;56H[0m<[46m/[0mText>[35;62H[K[35;55H[46m<[0m/Text[46m>[0m[44;65H[1m[7m1[35;55H[0m<[46m/[0mText>[35;61H[K[35;54H[46m<[0m/Text[46m>[0m[44;65H[1m[7m0[35;54H[0m[45;1H[K[35;53H[45;68H^[[35;53H[45;68H  [35;54H</Text>[44;64H[1m[7m49[35;53H[0m[45;68H:[35;53H[45;68H[K[45;1H:wq"App.js" 81L, 2075C written
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mvim App.js [C[Cgit add . && git commit -m "changed opening selection to toggle" && git push ^C
+]0;leonkuhne@x ~/NewYearsBox[33m¤ [39mvim todo.md 
+[m[m[0m[H[2J[45;1H"todo.md" 14L, 562C[2;1H▽[6n[2;1H  [1;1H[1;1H[93m  1 [0mfeed dogs
+[93m  2 [0mget a box and setup box with lock
+[93m  3 [0mhave the box keep track of its open/close state
+[93m  4 [0mchange openBox() to toggleBox()
+[93m  5 [0mprevent the servo from moving every so often
+[93m  6 [0mstore the music hours, cheat days, days meditated, and binge drink days
+[93m  7 [0madd endpoints for all of these things
+[93m  8 [0mdon't let the box open if behind, if not meditated, or if too many drink dd[9;1H[93m    [0mays
+[93m  9 [0mclose the box once a day late in the am (5AM or so)
+[93m 10 [0madd a cheat day button with a (3/5 days remaning) counter
+[93m 11 [0mMake the app pretty
+[93m 12 
+ 13 [0m-- EXTRA --
+[93m 14 [0mcreate a searching mode to find the box on the local network
+[94m~                                                                             [17;1H~                                                                             [18;1H~                                                                             [19;1H~                                                                             [20;1H~                                                                             [21;1H~                                                                             [22;1H~                                                                             [23;1H~                                                                             [24;1H~                                                                             [25;1H~                                                                             [26;1H~                                                                             [27;1H~                                                                             [28;1H~                                                                             [29;1H~                                                                             [30;1H~                                                                             [31;1H~                                                                             [32;1H~                                                                             [33;1H~                                                                             [34;1H~                                                                             [35;1H~                                                                             [36;1H~                                                                             [37;1H~                                                                             [38;1H~                                                                             [39;1H~                                                                             [40;1H~                                                    

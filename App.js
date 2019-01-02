@@ -36,9 +36,9 @@ export default class App extends React.Component {
     })
   }
   
-  openBox = () => {
+  toggleBox = () => {
     // send a post request to open the box
-  fetch(PI_URL + '/open', {
+  fetch(PI_URL + '/toggle', {
       method: 'post',
       headers: {
         Accept: 'application/json',
@@ -46,9 +46,9 @@ export default class App extends React.Component {
       },
       body: ''
     })
-    .then((res)=>{
-      console.log('opened the box')
-      this.setState({isBoxOpen: true})
+    .then((res) => res.json())
+    .then((data)=>{
+      this.setState({isBoxOpen: data.isOpen})
     })
     .catch((err)=>{
       console.log('Error opening box: ' + err)
@@ -71,8 +71,8 @@ export default class App extends React.Component {
         </View>
 
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Open Box</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.openBox()} value={this.state.isBoxOpen } />
+          <Text style={styles.switchLabel}>Unlock</Text>
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.toggleBox()} value={this.state.isBoxOpen } />
         </View>
 
       </View>

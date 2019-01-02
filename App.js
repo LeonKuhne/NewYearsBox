@@ -2,7 +2,7 @@ import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import Colors from './constants/Colors'
 
-const PI_URL = 'http://192.168.1.18:8080'
+const PI_URL = 'http://192.168.1.18:7272'
 
 const styles = StyleSheet.create({
   container: {

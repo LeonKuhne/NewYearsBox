@@ -51,7 +51,7 @@ export default class App extends React.Component {
       this.setState({isBoxOpen: true})
     })
     .catch((err)=>{
-      console.error('Error opening box: ' + err)
+      console.log('Error opening box: ' + err)
     })
   }
 

@@ -24,6 +24,7 @@ npm-debug.*
 *.p12
 *.key
 *.mobileprovision
+*.swp
 
 # Packages #
 ############

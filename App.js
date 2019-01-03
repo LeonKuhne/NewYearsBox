@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
+import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'react-native'
 import Colors from './constants/Colors'
 import pi from './api/pi'
 
@@ -37,15 +37,21 @@ export default class App extends React.Component {
   // ACTIONS
   // 
 
-  completeMeditation = () => {
+  function completeMeditation() {
     pi.POST("meditate", (data) => {
-      this.setState({box: data})
+      this.setState( {box: data} )
     })
   }
   
-  toggleBox = () => {
+  function toggleBox() {
     pi.POST("toggle", (data) => {
-      this.setState({box: data})
+      this.setState( {box: data} )
+    })
+  }
+
+  function cheatToday() {
+    pi.POST("cheat", (data) => {
+      this.setState( {box: data} )
     })
   }
 
@@ -56,21 +62,40 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Todo List:</Text>
- 
+        
+        // Music
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Music</Text>
           <Text>{this.state.box.musicHours}/500</Text>
         </View>
-
+        
+        // Meditate
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Meditate</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.completeMeditation()} value={this.state.box.meditatedToday} />
+          <Text style={styles.switchLabel}>
+            Meditate ({this.state.box.meditationDays}/365)
+          </Text>
+          <Switch
+            trackColor={{true: Colors.tintColor}}
+            onValueChange={() => this.completeMeditation()}
+            value={this.state.box.meditatedToday}
+          />
         </View>
 
+        // Cheat
+        <Button
+          onPress={()=>this.cheatToday()}
+          title="Cheat Day"
+          color={Colors.cheatButton}
+        />
+
+        // Open Box
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Unlock</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.toggleBox()} value={this.state.box.isOpen } />
+          <Switch
+            trackColor={{true: Colors.tintColor}}
+            onValueChange={() => this.toggleBox()}
+            value={this.state.box.isOpen }
+          />
         </View>
 
       </View>

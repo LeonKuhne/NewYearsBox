@@ -33,20 +33,18 @@ export default class App extends React.Component {
     super(props)
 
     state = {
-      box: {
-        isOpen: false,
-        musicHours: 0,
-        meditationDays: 0,
-        meditatedToday: false,
-        drinkDays: 0,
-        cheatDays: 0,
-        cheatToday: false
-      }
+      isOpen: false,
+      musicHours: 0,
+      meditationDays: 0,
+      meditatedToday: false,
+      drinkDays: 0,
+      cheatDays: 0,
+      cheatToday: false
     }
     
     // load in the state
     pi.GET('', () => {
-      this.setState({box: data})
+      this.setState(data)
     })
   }    
  
@@ -56,25 +54,25 @@ export default class App extends React.Component {
 
   addMusic(amount, unit) {
     pi.POST("music", (data) => {
-      this.setState( { box: data } )
+      this.setState(data)
     }, [amount, unit])
   }
 
   completeMeditation() {
     pi.POST("meditate", (data) => {
-      this.setState( { box: data } )
+      this.setState(data)
     })
   }
   
   toggleBox() {
     pi.POST("toggle", (data) => {
-      this.setState( { box: data } )
+      this.setState(data)
     })
   }
 
   cheatToday() {
     pi.POST("cheat", (data) => {
-      this.setState( { box: data } )
+      this.setState(data)
     })
   }
 

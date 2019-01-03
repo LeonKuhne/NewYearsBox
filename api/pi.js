@@ -1,15 +1,12 @@
 const HOST = 'http://192.168.1.3:7272'
 
-async function GET(endpoint = '', callback = null) {
+function GET(endpoint = '', callback = null) {
   let url = HOST + '/' + endpoint
   try {
     let res = await fetch(url)
     let state = await res.json()
 
-    callback ? callback(state) : null
-
-    return state
-
+    callback ? callback(state) : return state
   catch(err) {
     console.log('Error on GET pi/' + endpoint + ': ' + err)
   }

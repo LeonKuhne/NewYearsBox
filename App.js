@@ -28,7 +28,7 @@ export default class App extends React.Component {
     super(props)
     
     // load in the state
-    let data = await pi.GET()
+    let data = pi.GET()
     state = {
       box: data
     }

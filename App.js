@@ -26,6 +26,18 @@ export default class App extends React.Component {
   
   constructor(props) {
     super(props)
+
+    state = {
+      box: {
+        isOpen: false,
+        musicHours: 0,
+        meditationDays: 0,
+        meditatedToday: false,
+        drinkDays: 0,
+        cheatDays: 0,
+        cheatToday: false
+      }
+    }
     
     // load in the state
     pi.GET('', () => {

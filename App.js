@@ -19,6 +19,11 @@ const styles = StyleSheet.create({
   },
   switchLabel: {
     flex: 0
+  },
+  buttonContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    flexDirection: 'row',
   }
 })
 
@@ -49,21 +54,27 @@ export default class App extends React.Component {
   // ACTIONS
   // 
 
+  addMusic(amount, unit) {
+    pi.POST("music", (data) => {
+      this.setState( { box: data } )
+    }, [amount, unit])
+  }
+
   completeMeditation() {
     pi.POST("meditate", (data) => {
-      this.setState( {box: data} )
+      this.setState( { box: data } )
     })
   }
   
   toggleBox() {
     pi.POST("toggle", (data) => {
-      this.setState( {box: data} )
+      this.setState( { box: data } )
     })
   }
 
   cheatToday() {
     pi.POST("cheat", (data) => {
-      this.setState( {box: data} )
+      this.setState( { box: data } )
     })
   }
 
@@ -76,8 +87,33 @@ export default class App extends React.Component {
       <View style={styles.container}>
         
         // Music
-        <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Music</Text>
+        <Text>Music ({this.state.box.musicHours}/500):</Text>
+        <View style={styles.buttonContainer}>
+          
+          <Button
+            onPress={()=>this.addMusic(15, 'min')}
+            title="15 Min"
+            color={Colors.button}
+          />
+          
+          <Button
+            onPress={()=>this.addMusic(30, 'min')}
+            title="30 Min"
+            color={Colors.button}
+          />
+          
+          <Button
+            onPress={()=>this.addMusic(1, 'hrs')}
+            title="1 Hour"
+            color={Colors.button}
+          />
+
+          <Button
+            onPress={()=>this.addMusic(2, 'hrs')}
+            title="2 Hour"
+            color={Colors.button}
+          />
+
           <Text>{this.state.box.musicHours}/500</Text>
         </View>
         

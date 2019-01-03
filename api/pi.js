@@ -1,11 +1,6 @@
-export default {
-  get,
-  post
-}
-
 const HOST = 'http://192.168.1.3:7272'
 
-get = (endpoint, callback) => {
+function get(endpoint, callback) {
   fetch(HOST + '/' + endpoint, {
     method: 'get',
   })
@@ -16,7 +11,7 @@ get = (endpoint, callback) => {
   })
 }
 
-post = (endpoint, callback, data = []) => {
+function post (endpoint, callback, data = []) {
   let dataStr = data.length ? data.join('-') : null
   let url = [HOST, endpoint, dataStr].join('/')
   fetch(url, {
@@ -33,3 +28,10 @@ post = (endpoint, callback, data = []) => {
     console.log('Error on POST pi/' + endpoint + ': ' + err)
   })
 }
+
+export default {
+  get,
+  post
+}
+
+

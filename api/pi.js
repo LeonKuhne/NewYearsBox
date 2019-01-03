@@ -5,7 +5,7 @@ export default {
 
 const HOST = 'http://192.168.1.3:7272'
 
-function get(endpoint, callback) {
+get = (endpoint, callback) => {
   fetch(HOST + '/' + endpoint, {
     method: 'get',
   })
@@ -16,7 +16,7 @@ function get(endpoint, callback) {
   })
 }
 
-function post(endpoint, callback, data = []) {
+post = (endpoint, callback, data = []) => {
   let dataStr = data.length ? data.join('-') : null
   let url = [HOST, endpoint, dataStr].join('/')
   fetch(url, {

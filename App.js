@@ -40,7 +40,7 @@ export default class App extends React.Component {
   }
   
   // load in the state
-  GET('', (data) => {
+  GET("", (data) => {
     this.setState({box: data})
   })
   
@@ -49,13 +49,13 @@ export default class App extends React.Component {
   // 
 
   completeMeditation = () => {
-    POST('meditate', (data) => {
+    POST("meditate", (data) => {
       this.setState({box: data})
     })
   }
   
   toggleBox = () => {
-    POST('toggle', (data) => {
+    POST("toggle", (data) => {
       this.setState({box: data})
     })
   }

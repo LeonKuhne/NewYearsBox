@@ -29,9 +29,7 @@ export default class App extends React.Component {
     
     // load in the state
     pi.GET('', {
-      state = {
-        box: data
-      }
+      this.setState({box: data})
     })
   }    
  
@@ -62,7 +60,7 @@ export default class App extends React.Component {
  
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Music</Text>
-          <Text>132/500</Text>
+          <Text>{this.state.box.musicHours}/500</Text>
         </View>
 
         <View style={styles.switchContainer}>

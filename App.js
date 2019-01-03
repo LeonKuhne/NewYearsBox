@@ -130,7 +130,7 @@ export default class App extends React.Component {
         // Cheat
         <Button
           onPress={()=>this.cheatToday()}
-          title={"Cheat Day ("+{5-this.state.box.cheatDays}+" remaining)"
+          title={"Cheat Day ("+5-this.state.box.cheatDays+" remaining)"}
           color={this.state.box.cheatToday ? Colors.cheatButton : Colors.deactivated}
         />
 

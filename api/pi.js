@@ -1,18 +1,23 @@
 const HOST = 'http://192.168.1.3:7272'
 
-export function GET(endpoint, callback) {
-  fetch(HOST + '/' + endpoint, {
-    method: 'get',
-  })
-  .then((res) => res.json())
-  .then((state) => { callback(state) })
-  .catch((err) => {
+async function GET(endpoint = '', callback = null) {
+  let url = HOST + '/' + endpoint
+  try {
+    let res = await fetch(url)
+    let state = await res.json()
+
+    callback ? callback(state) : null
+
+    return state
+
+  catch(err) {
     console.log('Error on GET pi/' + endpoint + ': ' + err)
-  })
+  }
 }
 
-export function POST(endpoint, callback, data = []) {
+function POST(endpoint, callback, data = []) {
   let url = HOST + '/' + endpoint
+  
   if(data.length) {
     url += '/' + data.join('-')
   }
@@ -32,3 +37,4 @@ export function POST(endpoint, callback, data = []) {
   })
 }
 
+export default { GET, POST }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import Colors from './constants/Colors'
-import { GET, POST } from './api/pi'
+import pi from './api/pi'
 
 const styles = StyleSheet.create({
   container: {
@@ -23,35 +23,30 @@ const styles = StyleSheet.create({
 })
 
 export default class App extends React.Component {
-
-  //
-  // STATE
-  //
-
-  state = {
-    box: {
-      cheatDays: 0,
-      drinkDays: 0,
-      musicHours: 0,
-      isOpen: false,
-      meditationDays: 0,
-      meditatedToday: false
-    }
-  }
   
+  constructor(props) {
+    super(props)
+    
+    // load in the state
+    let data = await pi.GET()
+    state = {
+      box: data
+    }
+
+  }    
  
   //
   // ACTIONS
   // 
 
   completeMeditation = () => {
-    POST("meditate", (data) => {
+    pi.POST("meditate", (data) => {
       this.setState({box: data})
     })
   }
   
   toggleBox = () => {
-    POST("toggle", (data) => {
+    pi.POST("toggle", (data) => {
       this.setState({box: data})
     })
   }
@@ -61,11 +56,6 @@ export default class App extends React.Component {
   //
 
   render() {
-    // load in the state
-    GET("", (data) => {
-      this.setState({box: data})
-    })
-
     return (
       <View style={styles.container}>
         <Text>Todo List:</Text>

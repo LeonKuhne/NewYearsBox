@@ -1,3 +1,4 @@
+remove continuous pinging
 finish client endpoint impl
 add a cheat day button with a (3/5 days remaning) counter
 prevent the servo from moving every so often

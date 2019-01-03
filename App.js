@@ -28,11 +28,11 @@ export default class App extends React.Component {
     super(props)
     
     // load in the state
-    let data = pi.GET()
-    state = {
-      box: data
-    }
-
+    pi.GET('', {
+      state = {
+        box: data
+      }
+    })
   }    
  
   //

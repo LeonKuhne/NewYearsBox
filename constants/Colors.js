@@ -11,5 +11,6 @@ export default {
   warningText: '#666804',
   noticeBackground: tintColor,
   noticeText: '#fff',
-  cheatButton: '#f00'
+  cheatButton: '#f00',
+  deactivated: '#777'
 }

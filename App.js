@@ -96,8 +96,8 @@ export default class App extends React.Component {
         // Cheat
         <Button
           onPress={()=>this.cheatToday()}
-          title="Cheat Day"
-          color={Colors.cheatButton}
+          title={"Cheat Day ("+{5-this.state.box.cheatDays}+" remaining)"
+          color={this.state.box.cheatToday ? Colors.cheatButton : Colors.deactivated}
         />
 
         // Open Box

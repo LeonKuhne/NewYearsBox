@@ -2,6 +2,7 @@
 #################################
 .expo/*
 node_modules/
+package-lock.json
 
 # Folder config file #
 ######################
@@ -25,6 +26,7 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.swp
+
 
 # Packages #
 ############

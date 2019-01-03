@@ -12,8 +12,11 @@ export function GET(endpoint, callback) {
 }
 
 export function POST(endpoint, callback, data = []) {
-  let dataStr = data.length ? data.join('-') : null
-  let url = [HOST, endpoint, dataStr].join('/')
+  let url = HOST + '/' + endpoint
+  if(data.length) {
+    url += '/' + data.join('-')
+  }
+
   fetch(url, {
     method: 'post',
     headers: {

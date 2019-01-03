@@ -28,7 +28,7 @@ export default class App extends React.Component {
     super(props)
     
     // load in the state
-    pi.GET('', {
+    pi.GET('', () => {
       this.setState({box: data})
     })
   }    

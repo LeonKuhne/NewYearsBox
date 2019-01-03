@@ -1,7 +1,7 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import Colors from './constants/Colors'
-import pi from './api/pi'
+import { GET, POST } from './api/pi'
 
 const styles = StyleSheet.create({
   container: {
@@ -40,7 +40,7 @@ export default class App extends React.Component {
   }
   
   // load in the state
-  pi.get('', (data) => {
+  GET('', (data) => {
     this.setState({box: data})
   })
   
@@ -49,13 +49,13 @@ export default class App extends React.Component {
   // 
 
   completeMeditation = () => {
-    pi.post('meditate', (data) => {
+    POST('meditate', (data) => {
       this.setState({box: data})
     })
   }
   
   toggleBox = () => {
-    pi.post('toggle', (data) => {
+    POST('toggle', (data) => {
       this.setState({box: data})
     })
   }

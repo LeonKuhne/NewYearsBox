@@ -49,19 +49,19 @@ export default class App extends React.Component {
   // ACTIONS
   // 
 
-  function completeMeditation() {
+  completeMeditation() {
     pi.POST("meditate", (data) => {
       this.setState( {box: data} )
     })
   }
   
-  function toggleBox() {
+  toggleBox() {
     pi.POST("toggle", (data) => {
       this.setState( {box: data} )
     })
   }
 
-  function cheatToday() {
+  cheatToday() {
     pi.POST("cheat", (data) => {
       this.setState( {box: data} )
     })

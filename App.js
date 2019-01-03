@@ -1,8 +1,7 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch } from 'react-native'
 import Colors from './constants/Colors'
-
-const PI_URL = 'http://192.168.1.3:7272'
+import pi from './api/pi'
 
 const styles = StyleSheet.create({
   container: {
@@ -24,36 +23,46 @@ const styles = StyleSheet.create({
 })
 
 export default class App extends React.Component {
+
+  //
+  // STATE
+  //
+
   state = {
-    isMeditationDone: false,
-    isBoxOpen: false
+    box: {
+      cheatDays: 0,
+      drinkDays: 0,
+      musicHours: 0,
+      isOpen: false,
+      meditationDays: 0,
+      meditatedToday: false
+    }
   }
+  
+  // load in the state
+  pi.get('', (data) => {
+    this.setState({box: data})
+  })
+  
+  //
+  // ACTIONS
+  // 
 
   completeMeditation = () => {
-    console.log('Toggling Meditation')
-    this.setState({isMeditationDone: !this.state.isMeditationDone}, ()=>{
-      console.log('Meditation has been toggled.')
+    pi.post('meditate', (data) => {
+      this.setState({box: data})
     })
   }
   
   toggleBox = () => {
-    // send a post request to open the box
-  fetch(PI_URL + '/toggle', {
-      method: 'post',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: ''
-    })
-    .then((res) => res.json())
-    .then((data)=>{
-      this.setState({isBoxOpen: data.isOpen})
-    })
-    .catch((err)=>{
-      console.log('Error opening box: ' + err)
+    pi.post('toggle', (data) => {
+      this.setState({box: data})
     })
   }
+
+  //
+  // RENDER
+  //
 
   render() {
     return (
@@ -67,12 +76,12 @@ export default class App extends React.Component {
 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Meditate</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.completeMeditation()} value={this.state.isMeditationDone} />
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.completeMeditation()} value={this.state.box.meditatedToday} />
         </View>
 
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Unlock</Text>
-          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.toggleBox()} value={this.state.isBoxOpen } />
+          <Switch trackColor={{true: Colors.tintColor}} onValueChange={() => this.toggleBox()} value={this.state.box.isOpen } />
         </View>
 
       </View>

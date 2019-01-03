@@ -4,9 +4,9 @@ function GET(endpoint, callback = ()=>{}) {
   fetch(HOST + '/' + endpoint)
   .then((res) => res.json())
   .then((state) => { callback(state) })
-  .catch(err) {
+  .catch((err) => {
     console.log('Error on GET pi/' + endpoint + ': ' + err)
-  }
+  })
 }
 
 function POST(endpoint, callback, data = []) {

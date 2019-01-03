@@ -39,11 +39,7 @@ export default class App extends React.Component {
     }
   }
   
-  // load in the state
-  GET("", (data) => {
-    this.setState({box: data})
-  })
-  
+ 
   //
   // ACTIONS
   // 
@@ -65,6 +61,11 @@ export default class App extends React.Component {
   //
 
   render() {
+    // load in the state
+    GET("", (data) => {
+      this.setState({box: data})
+    })
+
     return (
       <View style={styles.container}>
         <Text>Todo List:</Text>

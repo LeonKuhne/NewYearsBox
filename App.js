@@ -112,14 +112,14 @@ export default class App extends React.Component {
             color={Colors.button}
           />
 
-          <Text>{this.state.musicHours}/500</Text>
+          //<Text>{this.state.musicHours}/500</Text>
         </View>
         
         // Meditate
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>
-            Meditate ({this.state.meditationDays}/365)
-          </Text>
+          //<Text style={styles.switchLabel}>
+          //  Meditate ({this.state.meditationDays}/365)
+          //</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.completeMeditation()}
@@ -136,7 +136,7 @@ export default class App extends React.Component {
 
         // Open Box
         <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Unlock</Text>
+          //<Text style={styles.switchLabel}>Unlock</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.toggleBox()}

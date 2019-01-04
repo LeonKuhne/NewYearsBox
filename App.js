@@ -85,7 +85,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         
         // Music
-        <Text>Music ({this.state.box.musicHours}/500):</Text>
+        <Text>Music ({this.state.musicHours}/500):</Text>
         <View style={styles.buttonContainer}>
           
           <Button
@@ -112,26 +112,26 @@ export default class App extends React.Component {
             color={Colors.button}
           />
 
-          <Text>{this.state.box.musicHours}/500</Text>
+          <Text>{this.state.musicHours}/500</Text>
         </View>
         
         // Meditate
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>
-            Meditate ({this.state.box.meditationDays}/365)
+            Meditate ({this.state.meditationDays}/365)
           </Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.completeMeditation()}
-            value={this.state.box.meditatedToday}
+            value={this.state.meditatedToday}
           />
         </View>
 
         // Cheat
         <Button
           onPress={()=>this.cheatToday()}
-          title={"Cheat Day ("+5-this.state.box.cheatDays+" remaining)"}
-          color={this.state.box.cheatToday ? Colors.cheatButton : Colors.deactivated}
+          title={"Cheat Day ("+5-this.state.cheatDays+" remaining)"}
+          color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
         />
 
         // Open Box
@@ -140,7 +140,7 @@ export default class App extends React.Component {
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.toggleBox()}
-            value={this.state.box.isOpen }
+            value={this.state.isOpen }
           />
         </View>
 

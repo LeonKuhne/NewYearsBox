@@ -32,7 +32,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props)
 
-    state = {
+    this.state = {
       isOpen: false,
       musicHours: 0,
       meditationDays: 0,

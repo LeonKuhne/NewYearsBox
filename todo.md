@@ -1,8 +1,6 @@
-remove continuous pinging
-  test
+prevent the servo from moving every so often
 finish client endpoint impl
 add a cheat day button with a (3/5 days remaning) counter
-prevent the servo from moving every so often
 don't let the box open if behind, if not meditated, or if too many drink days
 update android app every time its opened (and maybe at midnight)
 Make the app pretty

@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text }
+import { StyleSheet, View, Text } from 'react-native'
 import pi from '../api/pi'
 
 const styles = StyleSheet.create({

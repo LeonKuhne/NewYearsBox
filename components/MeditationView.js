@@ -15,7 +15,7 @@ export default class MeditationView extends React.Component {
     return(
       <View style={styles.container}>
         <Text>{this.props.title}</Text>
-        <Button onPress{()=>this.addMeditation()} title="Meditate" color={Colors.button} />
+        <Button onPress={()=>this.addMeditation()} title="Meditate" color={Colors.button} />
       </View>
     )
   }

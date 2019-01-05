@@ -1,8 +1,9 @@
 import React from 'react'
-import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'react-native'
+import { Platform, StatusBar, StyleSheet, View, Text } from 'react-native'
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
 import MeditationView from './components/MeditationView'
+import DrinkView from './components/DrinkView'
 import CheatView from './components/CheatView'
 import UnlockView from './components/UnlockView'
 import pi from './api/pi'
@@ -50,6 +51,11 @@ export default class App extends React.Component {
         <MeditationView
           onPress={(state)=>this.setState(state)}
           title={'Meditation '+this.state.meditationDays+'/'+(365-this.state.cheatDays)}
+          done={this.state.meditatedToday}
+        />
+        <DrinkView
+          onPress={(state)=>this.setState(state)}
+          title={'Drink '+this.state.drinkDays+'/5'}
         />
         <CheatView
           onPress={(state)=>this.setState(state)}

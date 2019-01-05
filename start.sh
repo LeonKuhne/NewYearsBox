@@ -1,6 +1,6 @@
 #!/bin/bash
 git pull
-expo build:android &> log.txt
+expo build:android | tee log.txt
 prefix="Successfully built standalone app:.*"
 fullUrl=$(cat log.txt | grep -o "Successfully built standalone app: .*")
 url=$(echo "${fullUrl}" | sed -e 's/^[ \t]*Successfully built standalone app: //')

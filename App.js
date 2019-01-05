@@ -83,8 +83,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Nothing but Text</Text>
-        
+        <Text>Nothing but Text</Text> 
         // Music
         //<Text>Music ({this.state.musicHours}/500):</Text>
         /*

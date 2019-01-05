@@ -83,9 +83,10 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Text>Nothing but Text</Text>
         
         // Music
-        <Text>Music ({this.state.musicHours}/500):</Text>
+        //<Text>Music ({this.state.musicHours}/500):</Text>
         /*
         <View style={styles.buttonContainer}>
           
@@ -116,7 +117,8 @@ export default class App extends React.Component {
           //<Text>{this.state.musicHours}/500</Text>
         </View>
         */
-
+        
+        /*
         // Meditate
         <View style={styles.switchContainer}>
           //<Text style={styles.switchLabel}>
@@ -128,7 +130,7 @@ export default class App extends React.Component {
             value={this.state.meditatedToday}
           />
         </View>
-        
+        */
         /*
         // Cheat
         <Button
@@ -137,7 +139,7 @@ export default class App extends React.Component {
           color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
         />
         */
-    
+        /*
         // Open Box
         <View style={styles.switchContainer}>
           //<Text style={styles.switchLabel}>Unlock</Text>
@@ -147,7 +149,7 @@ export default class App extends React.Component {
             value={ this.state.isOpen }
           />
         </View>
-
+        */
       </View>
     )
   }

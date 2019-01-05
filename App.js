@@ -4,6 +4,7 @@ import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
 import MeditationView from './components/MeditationView'
 import CheatView from './components/CheatView'
+import UnlockView from './components/UnlockView'
 import pi from './api/pi'
 
 const styles = StyleSheet.create({

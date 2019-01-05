@@ -85,7 +85,8 @@ export default class App extends React.Component {
       <View style={styles.container}>
         
         // Music
-        //<Text>Music ({this.state.musicHours}/500):</Text>
+        <Text>Music ({this.state.musicHours}/500):</Text>
+        /*
         <View style={styles.buttonContainer}>
           
           <Button
@@ -114,7 +115,8 @@ export default class App extends React.Component {
 
           //<Text>{this.state.musicHours}/500</Text>
         </View>
-        
+        */
+
         // Meditate
         <View style={styles.switchContainer}>
           //<Text style={styles.switchLabel}>
@@ -126,21 +128,23 @@ export default class App extends React.Component {
             value={this.state.meditatedToday}
           />
         </View>
-
+        
+        /*
         // Cheat
         <Button
           onPress={()=>this.cheatToday()}
           title={"Cheat Day ("+5-this.state.cheatDays+" remaining)"}
           color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
         />
-
+        */
+    
         // Open Box
         <View style={styles.switchContainer}>
           //<Text style={styles.switchLabel}>Unlock</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.toggleBox()}
-            value={this.state.isOpen }
+            value={ this.state.isOpen }
           />
         </View>
 

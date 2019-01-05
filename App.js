@@ -73,18 +73,17 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Nothing but Text</Text> 
+        <MusicView
+          onPress={(state)=>this.setState(state)}
+          title={'Music '+this.state.musicHours+'/500'}
+        />
       </View>
     )
   }
 }
 
 /*
-        <MusicView
-          onPress={(state)=>this.setState(state)}
-          title={'Music '+this.state.musicHours+'/500'}
-        />
-        <View style={styles.switchContainer}>
+       <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Meditate {this.state.meditationDays}/365</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}

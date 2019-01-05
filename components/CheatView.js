@@ -12,10 +12,16 @@ const styles = StyleSheet.create({
 export default class CheatView extends React.Component {
   
   render() {
+    let buttonColor = this.props.pressed ? Colors.deactivated : Colors.button
+
     return(
       <View style={styles.container}>
         <Text>{this.props.title}</Text>
-        <Button onPress={()=>this.addCheatDay()} title="Cheat" color={Colors.button} />
+        <Button
+          onPress={()=>this.addCheatDay()}
+          title="Cheat"
+          color={buttonColor}
+        />
       </View>
     )
   }

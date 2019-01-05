@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 export default class MeditationView extends React.Component {
   
   render() {
-    let buttonColor = this.props.done ? Colors.deactivated : Colors.button
+    let buttonColor = this.props.pressed ? Colors.deactivated : Colors.button
 
     return(
       <View style={styles.container}>

@@ -12,10 +12,16 @@ const styles = StyleSheet.create({
 export default class DrinkView extends React.Component {
   
   render() {
+    let buttonColor = this.props.pressed ? Colors.deactivated : Colors.button
+
     return(
       <View style={styles.container}>
         <Text>{this.props.title}</Text>
-        <Button onPress={()=>this.drink()} title="Drink" color={Colors.button} />
+        <Button
+          onPress={()=>this.drink()}
+          title="Drink"
+          color={buttonColor}
+        />
       </View>
     )
   }

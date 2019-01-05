@@ -27,13 +27,16 @@ export default class App extends React.Component {
       meditationDays: 0,
       meditatedToday: false,
       drinkDays: 0,
+      drinkToday: false
       cheatDays: 0,
       cheatToday: false
     }
     
     // load in the state
     pi.GET('', () => {
-      this.setState(data)
+      setTimeout(()=>{
+        this.setState(data)
+      }, 1000)
     })
   }    
 
@@ -51,15 +54,17 @@ export default class App extends React.Component {
         <MeditationView
           onPress={(state)=>this.setState(state)}
           title={'Meditation '+this.state.meditationDays+'/'+(365-this.state.cheatDays)}
-          done={this.state.meditatedToday}
+          pressed={this.state.meditatedToday}
         />
         <DrinkView
           onPress={(state)=>this.setState(state)}
           title={'Drink '+this.state.drinkDays+'/5'}
+          pressed={this.state.drinkToday}
         />
         <CheatView
           onPress={(state)=>this.setState(state)}
           title={'Cheat '+this.state.cheatDays+'/5'}
+          pressed={this.state.cheatToday}
         />
         <UnlockView
           onPress={(state)=>this.setState(state)}

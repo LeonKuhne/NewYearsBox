@@ -1,6 +1,8 @@
 #!/bin/bash
 git pull
 expo build:android > log.txt
-# grep the file for the url after 'Successfully built standalone app: '
-# push url to leonkuhne.com/apk
+prefix="Successfully built standalone app:.*"
+fullUrl=$(cat log.txt | grep -o "Successfully built standalone app: .*")
+url=$(echo "${fullUrl}" | sed -e 's/^[ \t]*Successfully built standalone app: //')
+echo "function openUrl(){window.open('$url', '_blank')}" | ssh root@104.207.135.80 "cat > /var/www/html/apk/script.js"
 read  -n 1 -p "Press any key to end..." key

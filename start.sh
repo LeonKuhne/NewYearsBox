@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-git pull
-rm -r ./node_modules/expo
-expo start
+#!/bin/bash
+git pull && rm -r ./node_modules/expo && expo start 

@@ -78,8 +78,13 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Nothing but Text</Text>
-        /*
+        <Text>Nothing but Text</Text> 
+      </View>
+    )
+  }
+}
+
+/*
         <MusicView
           onPress={(state)=>this.setState(state)}
           title={'Music '+this.state.musicHours+'/500'}
@@ -96,7 +101,7 @@ export default class App extends React.Component {
           onPress={()=>this.cheatToday()}
           title={"Cheat Day ("+5-this.state.cheatDays+" remaining)"}
           color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
-        />*/
+        />
         <View style={styles.switchContainer}>
           <Text style={styles.switchLabel}>Unlock</Text>
           <Switch
@@ -104,8 +109,4 @@ export default class App extends React.Component {
             onValueChange={() => this.toggleBox()}
             value={ this.state.isOpen }
           />
-        </View>
-      </View>
-    )
-  }
-}
+        </View>*/

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'react-native'
 import Colors from './constants/Colors'
+import MusicView from './components/MusicView'
 import pi from './api/pi'
 
 const styles = StyleSheet.create({
@@ -50,14 +51,8 @@ export default class App extends React.Component {
  
   //
   // ACTIONS
-  // 
-
-  addMusic(amount, unit) {
-    pi.POST("music", (data) => {
-      this.setState(data)
-    }, [amount, unit])
-  }
-
+  //
+  
   completeMeditation() {
     pi.POST("meditate", (data) => {
       this.setState(data)
@@ -83,72 +78,33 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Nothing but Text</Text> 
-        // Music
-        //<Text>Music ({this.state.musicHours}/500):</Text>
+        <Text>Nothing but Text</Text>
         /*
-        <View style={styles.buttonContainer}>
-          
-          <Button
-            onPress={()=>this.addMusic(15, 'min')}
-            title="15 Min"
-            color={Colors.button}
-          />
-          
-          <Button
-            onPress={()=>this.addMusic(30, 'min')}
-            title="30 Min"
-            color={Colors.button}
-          />
-          
-          <Button
-            onPress={()=>this.addMusic(1, 'hrs')}
-            title="1 Hour"
-            color={Colors.button}
-          />
-
-          <Button
-            onPress={()=>this.addMusic(2, 'hrs')}
-            title="2 Hour"
-            color={Colors.button}
-          />
-
-          //<Text>{this.state.musicHours}/500</Text>
-        </View>
-        */
-        
-        /*
-        // Meditate
+        <MusicView
+          onPress={(state)=>this.setState(state)}
+          title={'Music '+this.state.musicHours+'/500'}
+        />
         <View style={styles.switchContainer}>
-          //<Text style={styles.switchLabel}>
-          //  Meditate ({this.state.meditationDays}/365)
-          //</Text>
+          <Text style={styles.switchLabel}>Meditate {this.state.meditationDays}/365</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.completeMeditation()}
             value={this.state.meditatedToday}
           />
         </View>
-        */
-        /*
-        // Cheat
         <Button
           onPress={()=>this.cheatToday()}
           title={"Cheat Day ("+5-this.state.cheatDays+" remaining)"}
           color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
-        />
-        */
-        /*
-        // Open Box
+        />*/
         <View style={styles.switchContainer}>
-          //<Text style={styles.switchLabel}>Unlock</Text>
+          <Text style={styles.switchLabel}>Unlock</Text>
           <Switch
             trackColor={{true: Colors.tintColor}}
             onValueChange={() => this.toggleBox()}
             value={ this.state.isOpen }
           />
         </View>
-        */
       </View>
     )
   }

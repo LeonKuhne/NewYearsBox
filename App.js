@@ -77,6 +77,10 @@ export default class App extends React.Component {
           onPress={(state)=>this.setState(state)}
           title={'Music '+this.state.musicHours+'/500'}
         />
+        <MeditationView
+          onPress={(state)=>this.setState(state)}
+          title={'Meditation '+this.state.meditationDays+'/'+(365-this.state.cheatDays)}
+        />
       </View>
     )
   }

@@ -27,7 +27,7 @@ export default class App extends React.Component {
       meditationDays: 0,
       meditatedToday: false,
       drinkDays: 0,
-      drinkToday: false
+      drinkToday: false,
       cheatDays: 0,
       cheatToday: false
     }

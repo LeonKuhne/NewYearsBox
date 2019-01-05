@@ -1,5 +1,6 @@
 don't let the box open if behind, if not meditated, or if too many drink days
 fix getting initial state
+add an undo button
 prevent the servo from moving every so often
 update android app every time its opened (and maybe at midnight)
 Make the app pretty

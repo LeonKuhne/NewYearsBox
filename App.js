@@ -2,7 +2,7 @@ import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'react-native'
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
-import MeditationView from './components/MusicView'
+import MeditationView from './components/MeditationView'
 import pi from './api/pi'
 
 const styles = StyleSheet.create({

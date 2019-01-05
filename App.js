@@ -3,30 +3,15 @@ import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'rea
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
 import MeditationView from './components/MeditationView'
+import CheatView from './components/CheatView'
 import pi from './api/pi'
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffa',
     paddingVertical: 50,
-  },
-  switchContainer: {
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 16,
-    paddingHorizontal: 15
-  },
-  switchLabel: {
-    flex: 0
-  },
-  buttonContainer: {
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'row',
-  }
+  }, 
 })
 
 export default class App extends React.Component {
@@ -49,22 +34,6 @@ export default class App extends React.Component {
       this.setState(data)
     })
   }    
- 
-  //
-  // ACTIONS
-  //
-  
-  toggleBox() {
-    pi.POST("toggle", (data) => {
-      this.setState(data)
-    })
-  }
-
-  cheatToday() {
-    pi.POST("cheat", (data) => {
-      this.setState(data)
-    })
-  }
 
   //
   // RENDER
@@ -81,30 +50,14 @@ export default class App extends React.Component {
           onPress={(state)=>this.setState(state)}
           title={'Meditation '+this.state.meditationDays+'/'+(365-this.state.cheatDays)}
         />
+        <CheatView
+          onPress={(state)=>this.setState(state)}
+          title={'Cheat '+this.state.cheatDays+'/5'}
+        />
+        <UnlockView
+          onPress={(state)=>this.setState(state)}
+        />
       </View>
     )
   }
 }
-
-/*
-       <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Meditate {this.state.meditationDays}/365</Text>
-          <Switch
-            trackColor={{true: Colors.tintColor}}
-            onValueChange={() => this.completeMeditation()}
-            value={this.state.meditatedToday}
-          />
-        </View>
-        <Button
-          onPress={()=>this.cheatToday()}
-          title={"Cheat Day ("+5-this.state.cheatDays+" remaining)"}
-          color={this.state.cheatToday ? Colors.cheatButton : Colors.deactivated}
-        />
-        <View style={styles.switchContainer}>
-          <Text style={styles.switchLabel}>Unlock</Text>
-          <Switch
-            trackColor={{true: Colors.tintColor}}
-            onValueChange={() => this.toggleBox()}
-            value={ this.state.isOpen }
-          />
-        </View>*/

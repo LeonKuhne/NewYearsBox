@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     textAlign: 'center',
     flexDirection: 'row',
-    maxHeight: 200
+    height: 100
   }
 })
 

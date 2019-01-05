@@ -9,25 +9,19 @@ const styles = StyleSheet.create({
   }
 })
 
-export default class MeditationView extends React.Component {
+export default class DrinkView extends React.Component {
   
   render() {
-    let buttonColor = this.props.done ? Colors.deactivated : Colors.button
-
     return(
       <View style={styles.container}>
         <Text>{this.props.title}</Text>
-        <Button
-          onPress={()=>this.addMeditation()}
-          title="Meditate"
-          color={buttonColor}
-        />
+        <Button onPress={()=>this.drink()} title="Drink" color={Colors.button} />
       </View>
     )
   }
 
-  addMeditation() {
-    pi.POST('meditate', (state) => {
+  drink() {
+    pi.POST('drink', (state) => {
       this.props.onPress(state)
     })
   }

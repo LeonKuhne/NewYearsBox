@@ -57,6 +57,7 @@ export default class App extends React.Component {
         />
         <UnlockView
           onPress={(state)=>this.setState(state)}
+          isOpen={this.state.isOpen}
         />
       </View>
     )

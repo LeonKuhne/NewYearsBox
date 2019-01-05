@@ -18,7 +18,7 @@ export default class UnlockView extends React.Component {
         <Switch
           trackColor={{true: Colors.tintColor}}
           onValueChange={()=>this.toggleBox()}
-          value={this.state.isOpen}
+          value={this.props.isOpen}
         />
       </View>
     )

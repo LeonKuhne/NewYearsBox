@@ -2,6 +2,7 @@ import React from 'react'
 import { Platform, StatusBar, StyleSheet, View, Text, Switch, Button } from 'react-native'
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
+import MeditationView from './components/MusicView'
 import pi from './api/pi'
 
 const styles = StyleSheet.create({
@@ -52,12 +53,6 @@ export default class App extends React.Component {
   //
   // ACTIONS
   //
-  
-  completeMeditation() {
-    pi.POST("meditate", (data) => {
-      this.setState(data)
-    })
-  }
   
   toggleBox() {
     pi.POST("toggle", (data) => {

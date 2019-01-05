@@ -1,4 +1,5 @@
 import React from 'react'
+import { StyleSheet, View, Text, Button }
 import pi from '../api/pi'
 
 const styles = StyleSheet.create({

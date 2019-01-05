@@ -1,4 +1,5 @@
 import React from 'react'
+import { StyleSheet, View, Text }
 import pi from '../api/pi'
 
 const styles = StyleSheet.create({
@@ -13,7 +14,6 @@ export default class MeditationView extends React.Component {
     return(
       <View style={styles.container}>
         <Text>{this.props.title}</Text>
-        <
       </View>
     )
   }

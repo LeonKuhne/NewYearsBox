@@ -85,7 +85,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         
         // Music
-        <Text>Music ({this.state.musicHours}/500):</Text>
+        //<Text>Music ({this.state.musicHours}/500):</Text>
         <View style={styles.buttonContainer}>
           
           <Button

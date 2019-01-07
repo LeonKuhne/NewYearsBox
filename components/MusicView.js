@@ -1,21 +1,14 @@
 import React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
-import { ButtonGroup } from 'react-native-elements'
+import { StyleSheet, Dimensions, View, Text, Button } from 'react-native'
 import Colors from '../constants/Colors'
 import pi from '../api/pi'
 
 const GOAL_HOURS = 500
 const buttons = [
-  '15 min', 
-  '30 min',
-  '1 hour',
-  '2 hours'
-]
-const buttonValues = [
-  {amount: 15, unit: 'min'},
-  {amount: 30, unit: 'min'},
-  {amount: 1, unit: 'hrs'},
-  {amount: 2, unit: 'hrs'}
+  { text: '15 min', amount: 15, unit: 'min'},
+  { text: '30 min', amount: 30, unit: 'min'},
+  { text: '1 hour', amount: 1, unit: 'hrs'},
+  { text: '2 hours', amount: 2, unit: 'hrs'}
 ]
 
 const styles = StyleSheet.create({
@@ -38,22 +31,27 @@ export default class MusicView extends React.Component {
     let bgColor = onCourse ? Colors.bg : Colors.warningBackground
     let fgColor = onCourse ? Colors.text : Colors.warningText
 
+    // create the buttons
+    let buttonElems = []
+    for(i=0; i<buttons.length; i++) {
+      let button = buttons[i]
+      buttonElems.push(
+        <Button
+          title={button.text}
+          onPress={()=>{this.addMusic(button)}}
+          color={bgColor}
+        />
+      )
+    }
+
     return(
       <View style={[styles.container, {backgroundColor: bgColor}]}>
         <Text style={{color: fgColor}}>{this.getTitle()}</Text>
         <View style={styles.buttonContainer}>
-          <ButtonGroup
-            onPress={this.triggerButton}
-            buttons={buttons}
-            buttonStyle={{backgroundColor: bgColor}}
-          />
+          {buttonElems}
         </View>
       </View>
     )
-  }
-
-  triggerButton(index) {
-    addMusic(buttonValues[index])
   }
 
   addMusic(timeObj) {

@@ -4,18 +4,19 @@ import Colors from '../constants/Colors'
 import pi from '../api/pi'
 
 const GOAL_HOURS = 500
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column'
+    flexDirection: 'column',
+    width: 100%
   },
   buttonContainer: {
     flex: 1,
     alignSelf: 'stretch',
     textAlign: 'center',
     flexDirection: 'row',
-    height: 100
+    height: 50,
+    width: 100%
   }
 })
 

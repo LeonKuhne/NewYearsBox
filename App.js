@@ -11,8 +11,10 @@ import pi from './api/pi'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     backgroundColor: Colors.bg,
     paddingVertical: 50,
+    height: 100%
   }, 
 })
 
@@ -50,23 +52,23 @@ export default class App extends React.Component {
         <MusicView
           onPress={(state)=>this.setState(state)}
           hours={this.state.musicHours}
-          title={'Music '+this.state.musicHours+'/500'}
           diff={this.state.musicDiff}
         />
         <MeditationView
           onPress={(state)=>this.setState(state)}
-          title={'Meditation '+this.state.meditationDays+'/'+(365-this.state.cheatDays)}
-          pressed={this.state.meditatedToday}
+          done={this.state.meditatedToday}
+          days={this.state.meditationDays}
+          totalDays={365-this.state.cheatDays}
         />
         <DrinkView
           onPress={(state)=>this.setState(state)}
-          title={'Drink '+this.state.drinkDays+'/5'}
           pressed={this.state.drinkToday}
+          days={this.state.drinkDays}
         />
         <CheatView
           onPress={(state)=>this.setState(state)}
-          title={'Cheat '+this.state.cheatDays+'/5'}
           pressed={this.state.cheatToday}
+          days={this.state.cheatDays}
         />
         <UnlockView
           onPress={(state)=>this.setState(state)}

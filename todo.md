@@ -1,7 +1,5 @@
 Make the app pretty
-disable adding more than one meditation per day
-disable cheating more than once a day
-disable drinking more than once a day
+on server have state.open() return true or false, and impl in lock.py to only open if true
 fix getting initial state
 prevent the servo from moving every so often
 close the box once a day late in the am (5AM or so)

@@ -12,17 +12,15 @@ const styles = StyleSheet.create({
 export default class MeditationView extends React.Component {
   
   render() {
-    let buttonColor = this.props.pressed ? Colors.deactivated : Colors.button
-    let bgColor = this.props.pressed ? Colors.bg : Colors.warningBackground
-    let fgColor = this.props.pressed ? Colors.text : Colors.warningText
+    let color = this.props.done ? Colors.deactivated : Colors.button
+    let title = `Meditate ${this.props.days}/${this.props.totalDays}`
 
     return(
       <View style={styles.container}>
-        <Text>{this.props.title}</Text>
         <Button
           onPress={()=>this.addMeditation()}
-          title="Meditate"
-          color={buttonColor}
+          title={title}
+          color={color}
         />
       </View>
     )

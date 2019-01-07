@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    width: 100%
   },
   buttonContainer: {
     flex: 1,
@@ -16,7 +15,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     flexDirection: 'row',
     height: 50,
-    width: 100%
   }
 })
 

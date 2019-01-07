@@ -13,6 +13,8 @@ export default class MeditationView extends React.Component {
   
   render() {
     let buttonColor = this.props.pressed ? Colors.deactivated : Colors.button
+    let bgColor = this.props.pressed ? Colors.bg : Colors.warningBackground
+    let fgColor = this.props.pressed ? Colors.text : Colors.warningText
 
     return(
       <View style={styles.container}>

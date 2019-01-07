@@ -14,7 +14,7 @@ export default class DrinkView extends React.Component {
   
   render() {
     let color = this.props.pressed ? Colors.deactivated : Colors.button
-    let title = `Drink ${this.state.days}/${MAX_DAYS}` 
+    let title = `Drink ${this.props.days}/${MAX_DAYS}` 
     
     return(
       <View style={styles.container}>

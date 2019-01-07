@@ -12,5 +12,7 @@ export default {
   noticeBackground: tintColor,
   noticeText: '#fff',
   cheatButton: '#f00',
-  deactivated: '#777'
+  deactivated: '#777',
+  bg: '#ddd',
+  text: '#000'
 }

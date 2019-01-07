@@ -11,7 +11,7 @@ import pi from './api/pi'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffa',
+    backgroundColor: Colors.bg,
     paddingVertical: 50,
   }, 
 })
@@ -33,8 +33,8 @@ export default class App extends React.Component {
     }
     
     // load in the state
-    pi.GET('', () => {
-      setTimeout(()=>{
+    pi.GET('', (data) => {
+      setTimeout((data) => {
         this.setState(data)
       }, 1000)
     })
@@ -49,7 +49,9 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <MusicView
           onPress={(state)=>this.setState(state)}
+          hours={this.state.musicHours}
           title={'Music '+this.state.musicHours+'/500'}
+          diff={this.state.musicDiff}
         />
         <MeditationView
           onPress={(state)=>this.setState(state)}

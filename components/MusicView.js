@@ -23,23 +23,12 @@ export default class MusicView extends React.Component {
   
   render() {
     let onCourse = this.props.diff >= 0
-    let ratioStr = `${this.props.hours}/${GOAL_HOURS}`
-
-    let diffStr
-    let bgColor
-    if(onCourse) {
-      diffStr = '+' + this.props.diff
-      bgColor = Colors.bg
-    } else {
-      diffStr = '' + this.props.diff
-      bgColor = Colors.warningBackground
-    }
-
-    let title = `Music ${ratioStr} ${diffStr}`
+    let bgColor = onCourse ? Colors.bg : Colors.warningBackground
+    let fgColor = onCourse ? Colors.text : Colors.warningText
 
     return(
       <View style={[styles.container, {backgroundColor: bgColor}]}>
-        <Text>{title}</Text>
+        <Text style={{color: fgColor}}>{this.getTitle()}</Text>
         <View style={styles.buttonContainer}>
           <Button
             onPress={()=>this.addMusic(15,'min')}
@@ -70,5 +59,13 @@ export default class MusicView extends React.Component {
     pi.POST('music', (state) => {
       this.props.onPress(state)
     }, [amount, unit])
+  }
+
+  getTitle() {
+    let ratioStr = `${this.props.hours}/${GOAL_HOURS}` 
+    let diffPrefix = this.props.diff < 0 ? '' : '+'
+    let diffStr = `${diffPrefix}${this.props.diff}`
+
+    return `Music ${ratioStr} ${diffStr}`
   }
 }

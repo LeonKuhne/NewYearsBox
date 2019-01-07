@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: Colors.bg,
-    paddingVertical: 50,
     height: Dimensions.get('window').height
   } 
 })
@@ -26,6 +25,7 @@ export default class App extends React.Component {
     this.state = {
       isOpen: false,
       musicHours: 0,
+      musicDiff: 0,
       meditationDays: 0,
       meditatedToday: false,
       drinkDays: 0,

@@ -4,6 +4,19 @@ import Colors from '../constants/Colors'
 import pi from '../api/pi'
 
 const GOAL_HOURS = 500
+const buttons = [
+  '15 min', 
+  '30 min',
+  '1 hour',
+  '2 hours'
+]
+const buttonValues = [
+  {amount: 15, unit: 'min'},
+  {amount: 30, unit: 'min'},
+  {amount: 1, unit: 'hrs'},
+  {amount: 2, unit: 'hrs'}
+]
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -14,12 +27,11 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     textAlign: 'center',
     flexDirection: 'row',
-    height: 50,
   }
 })
 
 export default class MusicView extends React.Component {
-  
+ 
   render() {
     let onCourse = this.props.diff >= 0
     let bgColor = onCourse ? Colors.bg : Colors.warningBackground
@@ -29,35 +41,24 @@ export default class MusicView extends React.Component {
       <View style={[styles.container, {backgroundColor: bgColor}]}>
         <Text style={{color: fgColor}}>{this.getTitle()}</Text>
         <View style={styles.buttonContainer}>
-          <Button
-            onPress={()=>this.addMusic(15,'min')}
-            title="15 Min"
-            color={Colors.button}
-          />
-          <Button
-            onPress={()=>this.addMusic(30,'min')}
-            title="30 Min"
-            color={Colors.button}
-          />
-          <Button
-            onPress={()=>this.addMusic(1,'hrs')}
-            title="1 Hour"
-            color={Colors.button}
-          />
-          <Button
-            onPress={()=>this.addMusic(2,'hrs')}
-            title="2 Hours"
-            color={Colors.button}
+          <ButtonGroup
+            onPress={this.triggerButton}
+            buttons={buttons}
+            buttonStyle={{backgroundColor: bgColor}}
           />
         </View>
       </View>
     )
   }
 
-  addMusic(amount, unit) {
+  triggerButton(index) {
+    addMusic(buttonValues[index])
+  }
+
+  addMusic(timeObj) {
     pi.POST('music', (state) => {
       this.props.onPress(state)
-    }, [amount, unit])
+    }, [timeObj.amount, timeObj.unit])
   }
 
   getTitle() {

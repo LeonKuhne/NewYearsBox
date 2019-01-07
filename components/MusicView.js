@@ -1,5 +1,6 @@
 import React from 'react'
-import { StyleSheet, View, Text, ButtonGroup } from 'react-native'
+import { StyleSheet, View, Text } from 'react-native'
+import { ButtonGroup } from 'react-native-elements'
 import Colors from '../constants/Colors'
 import pi from '../api/pi'
 

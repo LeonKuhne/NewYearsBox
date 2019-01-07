@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, StatusBar, StyleSheet, Dimensions, View, Text } from 'react-native'
+import { Platform, StatusBar, StyleSheet, Dimensions, View} from 'react-native'
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
 import MeditationView from './components/MeditationView'

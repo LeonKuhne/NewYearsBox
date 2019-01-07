@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, StatusBar, StyleSheet, View, Text } from 'react-native'
+import { Platform, StatusBar, StyleSheet, Dimensions, View, Text } from 'react-native'
 import Colors from './constants/Colors'
 import MusicView from './components/MusicView'
 import MeditationView from './components/MeditationView'
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: Colors.bg,
     paddingVertical: 50,
-    height: 100%
+    height: Dimensions.get('window').height
   } 
 })
 

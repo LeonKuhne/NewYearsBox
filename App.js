@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.bg,
     paddingVertical: 50,
     height: 100%
-  }, 
+  } 
 })
 
 export default class App extends React.Component {

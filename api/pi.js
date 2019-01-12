@@ -1,4 +1,4 @@
-const HOST = 'http://192.168.1.3:7272'
+const HOST = 'http://192.168.0.8:7272'
 
 function GET(endpoint, callback = ()=>{}) {
   fetch(HOST + '/' + endpoint)
